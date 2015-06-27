@@ -22,11 +22,14 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="jnQ-Rd-1oz">
-                    <rect key="frame" x="67" y="259" width="240" height="170"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="text_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="jnQ-Rd-1oz">
+                    <rect key="frame" x="94" y="259" width="186" height="132"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="0.61213249199999997" green="0.24342308469999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="jnQ-Rd-1oz" secondAttribute="centerX" id="xh3-eT-eco"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="288.5" y="392.5"/>
         </view>
