@@ -14,6 +14,8 @@
 		5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5613398C1B3E666000EBCB4F /* Images.xcassets */; };
 		561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5613398E1B3E666000EBCB4F /* LaunchScreen.xib */; };
 		5613399C1B3E666100EBCB4F /* BESHOPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5613399B1B3E666100EBCB4F /* BESHOPTests.m */; };
+		561339A71B3E682500EBCB4F /* LendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339A61B3E682500EBCB4F /* LendViewController.m */; };
+		561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339A91B3E685400EBCB4F /* BorrowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		561339951B3E666100EBCB4F /* BESHOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BESHOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5613399A1B3E666100EBCB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5613399B1B3E666100EBCB4F /* BESHOPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BESHOPTests.m; sourceTree = "<group>"; };
+		561339A51B3E682500EBCB4F /* LendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LendViewController.h; sourceTree = "<group>"; };
+		561339A61B3E682500EBCB4F /* LendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LendViewController.m; sourceTree = "<group>"; };
+		561339A81B3E685400EBCB4F /* BorrowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorrowViewController.h; sourceTree = "<group>"; };
+		561339A91B3E685400EBCB4F /* BorrowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorrowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				561339861B3E666000EBCB4F /* ViewController.h */,
 				561339871B3E666000EBCB4F /* ViewController.m */,
 				561339891B3E666000EBCB4F /* Main.storyboard */,
+				561339A51B3E682500EBCB4F /* LendViewController.h */,
+				561339A61B3E682500EBCB4F /* LendViewController.m */,
+				561339A81B3E685400EBCB4F /* BorrowViewController.h */,
+				561339A91B3E685400EBCB4F /* BorrowViewController.m */,
 				5613398C1B3E666000EBCB4F /* Images.xcassets */,
 				5613398E1B3E666000EBCB4F /* LaunchScreen.xib */,
 				5613397F1B3E666000EBCB4F /* Supporting Files */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				561339881B3E666000EBCB4F /* ViewController.m in Sources */,
+				561339A71B3E682500EBCB4F /* LendViewController.m in Sources */,
+				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
 				561339851B3E666000EBCB4F /* AppDelegate.m in Sources */,
 				561339821B3E666000EBCB4F /* main.m in Sources */,
 			);
