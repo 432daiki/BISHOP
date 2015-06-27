@@ -12,7 +12,6 @@
 		561339881B3E666000EBCB4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339871B3E666000EBCB4F /* ViewController.m */; };
 		5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561339891B3E666000EBCB4F /* Main.storyboard */; };
 		5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5613398C1B3E666000EBCB4F /* Images.xcassets */; };
-		561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5613398E1B3E666000EBCB4F /* LaunchScreen.xib */; };
 		5613399C1B3E666100EBCB4F /* BESHOPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5613399B1B3E666100EBCB4F /* BESHOPTests.m */; };
 		561339A71B3E682500EBCB4F /* LendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339A61B3E682500EBCB4F /* LendViewController.m */; };
 		561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339A91B3E685400EBCB4F /* BorrowViewController.m */; };
@@ -54,7 +53,6 @@
 		561339871B3E666000EBCB4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5613398A1B3E666000EBCB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5613398C1B3E666000EBCB4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5613398F1B3E666000EBCB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		561339951B3E666100EBCB4F /* BESHOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BESHOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5613399A1B3E666100EBCB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5613399B1B3E666100EBCB4F /* BESHOPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BESHOPTests.m; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 				561339D41B3E923500EBCB4F /* DetailItemView.h */,
 				561339D51B3E923500EBCB4F /* DetailItemView.m */,
 				561339D21B3E921500EBCB4F /* DetailItemView.xib */,
-				5613398E1B3E666000EBCB4F /* LaunchScreen.xib */,
 				561339FD1B3EBB2700EBCB4F /* DrawerView.h */,
 				561339FE1B3EBB2700EBCB4F /* DrawerView.m */,
 				56133A001B3EBB3E00EBCB4F /* DrawerView.xib */,
@@ -294,7 +291,6 @@
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
 				56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */,
 				561339C01B3E8AC400EBCB4F /* K0000151481_0002.jpg in Resources */,
-				561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */,
 				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
@@ -355,14 +351,6 @@
 				5613398A1B3E666000EBCB4F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5613398E1B3E666000EBCB4F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5613398F1B3E666000EBCB4F /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
