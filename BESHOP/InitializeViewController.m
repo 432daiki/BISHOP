@@ -17,6 +17,12 @@
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
+// User Data
+@property (weak, nonatomic) IBOutlet UITextField *mailAdressTextField;
+@property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+@property NSMutableDictionary *resistDic;
+
 @end
 
 @implementation InitializeViewController
@@ -24,6 +30,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    //
+    self.mailAdressTextField.delegate = self;
+    self.userNameTextField.delegate = self;
+    self.passwordTextField.delegate = self;
+    self.resistDic = [NSMutableDictionary dictionary];
+    
+    
+    
+    // Create Opening Views
     int screenWidth = 375;
     self.scrollView.contentSize  = CGSizeMake(screenWidth*5, 667);
     
@@ -68,6 +85,19 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    if ((textField = self.mailAdressTextField)) {
+        self.resistDic[@"MAIL"] = textField.text;
+    }
+    else if (textField == self.userNameTextField){
+        self.resistDic[@"NAME"] = textField.text;
+    }
+    else if (textField == self.passwordTextField){
+        self.resistDic[@"PASS"] = textField.text;
+    }
+    return YES;
 }
 
 /*
