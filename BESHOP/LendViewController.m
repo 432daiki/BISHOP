@@ -7,6 +7,8 @@
 //
 
 #import "LendViewController.h"
+#import "AppDelegate.h"
+#import "BorrowViewController.h"
 
 @interface LendViewController ()
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    AppDelegate *ad = [[UIApplication sharedApplication] delegate];
+    ad.switchFlag = @"LEND";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,5 +35,14 @@
         
     }
 }
+
+- (void)flip{
+
+    self.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    BorrowViewController *bvc = [self.storyboard instantiateViewControllerWithIdentifier:@"Borrow"];
+    [self presentViewController:bvc animated:YES completion:nil];
+}
+
 
 @end

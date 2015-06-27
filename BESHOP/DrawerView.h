@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface DrawerView : UIView
 @property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
@@ -15,6 +16,9 @@
 @property (weak, nonatomic) IBOutlet UIView *backView;
 - (void)showShadow;
 
-@property NSString *switchFlag;
+
+@property (weak, nonatomic) IBOutlet UIButton *switchButton;
+
+@property AppDelegate *ad;
 
 @end

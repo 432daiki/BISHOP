@@ -10,4 +10,6 @@
 
 @interface LendViewController : UIViewController
 
+-(void)flip;
+
 @end

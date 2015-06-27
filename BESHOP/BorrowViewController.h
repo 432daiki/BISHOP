@@ -10,6 +10,6 @@
 
 @interface BorrowViewController : UIViewController
 
-
+-(void)flip;
 
 @end

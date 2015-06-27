@@ -11,6 +11,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "DrawerView.h"
 #import "AppDelegate.h"
+#import "LendViewController.h"
 
 @interface BorrowViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -26,6 +27,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.ad = [[UIApplication sharedApplication] delegate];
+    self.ad.switchFlag = @"BORROW";
+    
     UINib *nibForCell = [UINib nibWithNibName:@"ItemTableViewCell" bundle:nil];
     [self.tableView registerNib:nibForCell forCellReuseIdentifier:@"Cell"];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -37,7 +41,6 @@
     [self.view addSubview:self.drawerView];
     [self.drawerView setting];
     
-    self.ad = [[UIApplication sharedApplication] delegate];
     self.ad.animationDirection = @"LEFT";
     
 }
@@ -130,7 +133,17 @@
     
 }
 
-
+- (void)flip{
+    
+    UIStoryboard *storyBoard2 = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    self.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    LendViewController *lvc = [storyBoard2 instantiateViewControllerWithIdentifier:@"Lend"];
+    
+    [self presentViewController:lvc animated:YES completion:nil];
+    
+}
 
 
 @end

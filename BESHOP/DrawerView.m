@@ -8,7 +8,8 @@
 
 #import "DrawerView.h"
 #import <QuartzCore/QuartzCore.h>
-#import "AppDelegate.h"
+#import "LendViewController.h"
+#import "BorrowViewController.h"
 
 @implementation DrawerView
 
@@ -24,8 +25,21 @@
     swipeLeftGesture.direction = UISwipeGestureRecognizerDirectionLeft;
     [self addGestureRecognizer:swipeLeftGesture];
     
+    self.ad = [[UIApplication sharedApplication] delegate];
     
-
+    NSString *str;
+    if ([self.ad.switchFlag isEqualToString:@"LEND"]) {
+        
+        str = @"借りる";
+    }
+    else if ([self.ad.switchFlag isEqualToString:@"BORROW"]){
+        
+        str = @"貸す";
+    }
+    
+    NSLog(@"%@",str);
+    
+    [self.switchButton setTitle:[NSString stringWithFormat:@"「%@」にスイッチ",str] forState:UIControlStateNormal];
 }
 
 - (void)showShadow{
@@ -40,7 +54,6 @@
 
 - (IBAction)pushBlank:(id)sender {
     
-    AppDelegate *ad = [[UIApplication sharedApplication] delegate];
     
     self.backView.layer.masksToBounds = YES;
     
@@ -48,14 +61,45 @@
         
             self.frame = CGRectMake(-375, 0, 375, 667);
         
-            ad.animationDirection = @"LEFT";
+            self.ad.animationDirection = @"LEFT";
         
     }completion:nil];
 }
 
 - (IBAction)pushSwitchButton:(id)sender {
     
+    [self pushBlank:nil];
     
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    //借りるに遷移
+    if ([self.ad.switchFlag isEqualToString:@"LEND"]) {
+        
+        /*
+        LendViewController *lvc = [[LendViewController alloc] init];
+        lvc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+        
+       BorrowViewController *bvc = [storyBoard instantiateViewControllerWithIdentifier:@"Borrow"];
+        [lvc presentViewController:bvc animated:YES completion:nil];*/
+        
+        LendViewController *lvc = [[LendViewController alloc] init];
+        [lvc flip];
+    }
+    
+    //貸すに遷移
+    else if ([self.ad.switchFlag isEqualToString:@"BORROW"]){
+        
+        /*
+        BorrowViewController *bvc = [[BorrowViewController alloc] init];
+        bvc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+        
+        LendViewController *lvc = [storyBoard instantiateViewControllerWithIdentifier:@"Lend"];
+        [bvc presentViewController:lvc animated:YES completion:nil];*/
+        
+        BorrowViewController *bvc = [[BorrowViewController alloc] init];
+        
+        [bvc flip];
+    }
 }
 
 
