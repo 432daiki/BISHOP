@@ -36,15 +36,6 @@
     }
 }
 
-- (void)flip{
-
-    UIStoryboard *storyBoard2 = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
-    self.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-    
-    BorrowViewController *bvc = [storyBoard2 instantiateViewControllerWithIdentifier:@"Borrow"];
-    [self presentViewController:bvc animated:YES completion:nil];
-}
 
 
 @end
