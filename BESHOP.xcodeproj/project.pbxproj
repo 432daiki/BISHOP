@@ -35,6 +35,26 @@
 		56133A161B3EEB4300EBCB4F /* DoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56133A151B3EEB4300EBCB4F /* DoneView.xib */; };
 		56133A1A1B3EF0DF00EBCB4F /* Triangle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A191B3EF0DF00EBCB4F /* Triangle1.png */; };
 		813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */; };
+		813F5E5D1B3EDF5300051DFB /* MailAndPassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */; };
+		813F5E5F1B3EE17000051DFB /* UserNameAndThumbNailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */; };
+		813F5E611B3EE19900051DFB /* OpeningView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E601B3EE19900051DFB /* OpeningView1.xib */; };
+		813F5E631B3EE1A900051DFB /* OpeningView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E621B3EE1A900051DFB /* OpeningView2.xib */; };
+		813F5E651B3EE1B800051DFB /* OpeningView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E641B3EE1B800051DFB /* OpeningView3.xib */; };
+		813F5E681B3EE26F00051DFB /* InitializeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E671B3EE26F00051DFB /* InitializeViewController.m */; };
+		813F5E6B1B3EEB6600051DFB /* MailAndPassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E6A1B3EEB6600051DFB /* MailAndPassView.m */; };
+		813F5E6E1B3EEBA300051DFB /* UserNameAndThumbNailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E6D1B3EEBA300051DFB /* UserNameAndThumbNailView.m */; };
+		813F5E711B3EEBB600051DFB /* OpeningView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E701B3EEBB600051DFB /* OpeningView1.m */; };
+		813F5E741B3EEBE500051DFB /* OpeningView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E731B3EEBE500051DFB /* OpeningView2.m */; };
+		813F5E771B3EEBFA00051DFB /* OpeningView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E761B3EEBFA00051DFB /* OpeningView3.m */; };
+		813F5E7A1B3EF1C300051DFB /* tutorial_1_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E791B3EF1C300051DFB /* tutorial_1_bg.jpg */; };
+		813F5E7D1B3EF21900051DFB /* tutorial_2_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E7B1B3EF21900051DFB /* tutorial_2_bg.jpg */; };
+		813F5E7E1B3EF21900051DFB /* tutorial_3_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E7C1B3EF21900051DFB /* tutorial_3_bg.jpg */; };
+		813F5E801B3EF3DB00051DFB /* golden_gate_bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E7F1B3EF3DB00051DFB /* golden_gate_bridge.jpg */; };
+		813F5E851B3EFCE700051DFB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E811B3EFCE700051DFB /* logo.png */; };
+		813F5E861B3EFCE700051DFB /* register_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E821B3EFCE700051DFB /* register_button.png */; };
+		813F5E871B3EFCE700051DFB /* shaleotsu_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E831B3EFCE700051DFB /* shaleotsu_line.png */; };
+		813F5E881B3EFCE700051DFB /* start_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E841B3EFCE700051DFB /* start_button.png */; };
+		813F5E8A1B3EFCF000051DFB /* add_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E891B3EFCF000051DFB /* add_picture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +111,32 @@
 		56133A151B3EEB4300EBCB4F /* DoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoneView.xib; sourceTree = "<group>"; };
 		56133A191B3EF0DF00EBCB4F /* Triangle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle1.png; sourceTree = "<group>"; };
 		813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add_items_bg.jpg; sourceTree = "<group>"; };
+		813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailAndPassView.xib; sourceTree = "<group>"; };
+		813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNameAndThumbNailView.xib; sourceTree = "<group>"; };
+		813F5E601B3EE19900051DFB /* OpeningView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningView1.xib; sourceTree = "<group>"; };
+		813F5E621B3EE1A900051DFB /* OpeningView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningView2.xib; sourceTree = "<group>"; };
+		813F5E641B3EE1B800051DFB /* OpeningView3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningView3.xib; sourceTree = "<group>"; };
+		813F5E661B3EE26F00051DFB /* InitializeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeViewController.h; sourceTree = "<group>"; };
+		813F5E671B3EE26F00051DFB /* InitializeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeViewController.m; sourceTree = "<group>"; };
+		813F5E691B3EEB6600051DFB /* MailAndPassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailAndPassView.h; sourceTree = "<group>"; };
+		813F5E6A1B3EEB6600051DFB /* MailAndPassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailAndPassView.m; sourceTree = "<group>"; };
+		813F5E6C1B3EEBA300051DFB /* UserNameAndThumbNailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNameAndThumbNailView.h; sourceTree = "<group>"; };
+		813F5E6D1B3EEBA300051DFB /* UserNameAndThumbNailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNameAndThumbNailView.m; sourceTree = "<group>"; };
+		813F5E6F1B3EEBB600051DFB /* OpeningView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningView1.h; sourceTree = "<group>"; };
+		813F5E701B3EEBB600051DFB /* OpeningView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningView1.m; sourceTree = "<group>"; };
+		813F5E721B3EEBE500051DFB /* OpeningView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningView2.h; sourceTree = "<group>"; };
+		813F5E731B3EEBE500051DFB /* OpeningView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningView2.m; sourceTree = "<group>"; };
+		813F5E751B3EEBFA00051DFB /* OpeningView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningView3.h; sourceTree = "<group>"; };
+		813F5E761B3EEBFA00051DFB /* OpeningView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningView3.m; sourceTree = "<group>"; };
+		813F5E791B3EF1C300051DFB /* tutorial_1_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutorial_1_bg.jpg; sourceTree = "<group>"; };
+		813F5E7B1B3EF21900051DFB /* tutorial_2_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutorial_2_bg.jpg; sourceTree = "<group>"; };
+		813F5E7C1B3EF21900051DFB /* tutorial_3_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutorial_3_bg.jpg; sourceTree = "<group>"; };
+		813F5E7F1B3EF3DB00051DFB /* golden_gate_bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golden_gate_bridge.jpg; sourceTree = "<group>"; };
+		813F5E811B3EFCE700051DFB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		813F5E821B3EFCE700051DFB /* register_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_button.png; sourceTree = "<group>"; };
+		813F5E831B3EFCE700051DFB /* shaleotsu_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shaleotsu_line.png; sourceTree = "<group>"; };
+		813F5E841B3EFCE700051DFB /* start_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_button.png; sourceTree = "<group>"; };
+		813F5E891B3EFCF000051DFB /* add_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_picture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +181,7 @@
 		5613397E1B3E666000EBCB4F /* BESHOP */ = {
 			isa = PBXGroup;
 			children = (
+				813F5E5B1B3EDE1300051DFB /* InitializeXibFiles */,
 				561339831B3E666000EBCB4F /* AppDelegate.h */,
 				561339841B3E666000EBCB4F /* AppDelegate.m */,
 				561339861B3E666000EBCB4F /* ViewController.h */,
@@ -142,6 +189,8 @@
 				561339891B3E666000EBCB4F /* Main.storyboard */,
 				561339DA1B3EB20A00EBCB4F /* SideViewController.h */,
 				561339DB1B3EB20A00EBCB4F /* SideViewController.m */,
+				813F5E661B3EE26F00051DFB /* InitializeViewController.h */,
+				813F5E671B3EE26F00051DFB /* InitializeViewController.m */,
 				561339A51B3E682500EBCB4F /* LendViewController.h */,
 				561339A61B3E682500EBCB4F /* LendViewController.m */,
 				561339A81B3E685400EBCB4F /* BorrowViewController.h */,
@@ -197,6 +246,7 @@
 		561339BB1B3E8AA100EBCB4F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				813F5E781B3EF1AB00051DFB /* Opening */,
 				56133A041B3EC7D500EBCB4F /* Bitmap1.png */,
 				561339BD1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */,
 				561339BF1B3E8AC400EBCB4F /* K0000151481_0002.jpg */,
@@ -216,6 +266,44 @@
 			);
 			name = Resources;
 			path = BESHOP.xcodeproj;
+			sourceTree = "<group>";
+		};
+		813F5E5B1B3EDE1300051DFB /* InitializeXibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */,
+				813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */,
+				813F5E601B3EE19900051DFB /* OpeningView1.xib */,
+				813F5E621B3EE1A900051DFB /* OpeningView2.xib */,
+				813F5E641B3EE1B800051DFB /* OpeningView3.xib */,
+				813F5E691B3EEB6600051DFB /* MailAndPassView.h */,
+				813F5E6A1B3EEB6600051DFB /* MailAndPassView.m */,
+				813F5E6C1B3EEBA300051DFB /* UserNameAndThumbNailView.h */,
+				813F5E6D1B3EEBA300051DFB /* UserNameAndThumbNailView.m */,
+				813F5E6F1B3EEBB600051DFB /* OpeningView1.h */,
+				813F5E701B3EEBB600051DFB /* OpeningView1.m */,
+				813F5E721B3EEBE500051DFB /* OpeningView2.h */,
+				813F5E731B3EEBE500051DFB /* OpeningView2.m */,
+				813F5E751B3EEBFA00051DFB /* OpeningView3.h */,
+				813F5E761B3EEBFA00051DFB /* OpeningView3.m */,
+			);
+			name = InitializeXibFiles;
+			sourceTree = "<group>";
+		};
+		813F5E781B3EF1AB00051DFB /* Opening */ = {
+			isa = PBXGroup;
+			children = (
+				813F5E811B3EFCE700051DFB /* logo.png */,
+				813F5E891B3EFCF000051DFB /* add_picture.png */,
+				813F5E821B3EFCE700051DFB /* register_button.png */,
+				813F5E831B3EFCE700051DFB /* shaleotsu_line.png */,
+				813F5E841B3EFCE700051DFB /* start_button.png */,
+				813F5E7F1B3EF3DB00051DFB /* golden_gate_bridge.jpg */,
+				813F5E7B1B3EF21900051DFB /* tutorial_2_bg.jpg */,
+				813F5E7C1B3EF21900051DFB /* tutorial_3_bg.jpg */,
+				813F5E791B3EF1C300051DFB /* tutorial_1_bg.jpg */,
+			);
+			name = Opening;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +388,10 @@
 			files = (
 				561339BE1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */,
 				561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */,
+				813F5E851B3EFCE700051DFB /* logo.png in Resources */,
+				813F5E801B3EF3DB00051DFB /* golden_gate_bridge.jpg in Resources */,
+				813F5E7E1B3EF21900051DFB /* tutorial_3_bg.jpg in Resources */,
+				813F5E5D1B3EDF5300051DFB /* MailAndPassView.xib in Resources */,
 				813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */,
 				56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */,
 				56133A111B3ECC3800EBCB4F /* Add items.png in Resources */,
@@ -307,8 +399,18 @@
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
 				56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */,
 				561339C01B3E8AC400EBCB4F /* K0000151481_0002.jpg in Resources */,
+				813F5E871B3EFCE700051DFB /* shaleotsu_line.png in Resources */,
+				813F5E5F1B3EE17000051DFB /* UserNameAndThumbNailView.xib in Resources */,
+				813F5E651B3EE1B800051DFB /* OpeningView3.xib in Resources */,
+				813F5E631B3EE1A900051DFB /* OpeningView2.xib in Resources */,
+				813F5E7D1B3EF21900051DFB /* tutorial_2_bg.jpg in Resources */,
+				813F5E7A1B3EF1C300051DFB /* tutorial_1_bg.jpg in Resources */,
 				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
+				813F5E881B3EFCE700051DFB /* start_button.png in Resources */,
+				813F5E611B3EE19900051DFB /* OpeningView1.xib in Resources */,
+				813F5E8A1B3EFCF000051DFB /* add_picture.png in Resources */,
+				813F5E861B3EFCE700051DFB /* register_button.png in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
 				56133A161B3EEB4300EBCB4F /* DoneView.xib in Resources */,
 				56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */,
@@ -331,13 +433,19 @@
 			files = (
 				561339AE1B3E798400EBCB4F /* ItemTableViewCell.m in Sources */,
 				561339881B3E666000EBCB4F /* ViewController.m in Sources */,
+				813F5E681B3EE26F00051DFB /* InitializeViewController.m in Sources */,
 				561339DC1B3EB20A00EBCB4F /* SideViewController.m in Sources */,
 				561339A71B3E682500EBCB4F /* LendViewController.m in Sources */,
+				813F5E771B3EEBFA00051DFB /* OpeningView3.m in Sources */,
+				813F5E6B1B3EEB6600051DFB /* MailAndPassView.m in Sources */,
+				813F5E741B3EEBE500051DFB /* OpeningView2.m in Sources */,
 				561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */,
+				813F5E6E1B3EEBA300051DFB /* UserNameAndThumbNailView.m in Sources */,
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
 				56133A141B3EEB3200EBCB4F /* DoneView.m in Sources */,
 				561339851B3E666000EBCB4F /* AppDelegate.m in Sources */,
 				561339B81B3E89D500EBCB4F /* ItemImageView.m in Sources */,
+				813F5E711B3EEBB600051DFB /* OpeningView1.m in Sources */,
 				561339D11B3E8E1C00EBCB4F /* DrawerViewController.m in Sources */,
 				561339821B3E666000EBCB4F /* main.m in Sources */,
 				561339D61B3E923500EBCB4F /* DetailItemView.m in Sources */,
