@@ -31,6 +31,9 @@
 		56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A0C1B3ECC3000EBCB4F /* Sales.png */; };
 		56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A0D1B3ECC3000EBCB4F /* Settings.png */; };
 		56133A111B3ECC3800EBCB4F /* Add items.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A101B3ECC3800EBCB4F /* Add items.png */; };
+		56133A141B3EEB3200EBCB4F /* DoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56133A131B3EEB3200EBCB4F /* DoneView.m */; };
+		56133A161B3EEB4300EBCB4F /* DoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56133A151B3EEB4300EBCB4F /* DoneView.xib */; };
+		56133A1A1B3EF0DF00EBCB4F /* Triangle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A191B3EF0DF00EBCB4F /* Triangle1.png */; };
 		813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +86,10 @@
 		56133A0C1B3ECC3000EBCB4F /* Sales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sales.png; sourceTree = "<group>"; };
 		56133A0D1B3ECC3000EBCB4F /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		56133A101B3ECC3800EBCB4F /* Add items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add items.png"; sourceTree = "<group>"; };
+		56133A121B3EEB3200EBCB4F /* DoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneView.h; sourceTree = "<group>"; };
+		56133A131B3EEB3200EBCB4F /* DoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoneView.m; sourceTree = "<group>"; };
+		56133A151B3EEB4300EBCB4F /* DoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoneView.xib; sourceTree = "<group>"; };
+		56133A191B3EF0DF00EBCB4F /* Triangle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle1.png; sourceTree = "<group>"; };
 		813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add_items_bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +156,9 @@
 				561339D41B3E923500EBCB4F /* DetailItemView.h */,
 				561339D51B3E923500EBCB4F /* DetailItemView.m */,
 				561339D21B3E921500EBCB4F /* DetailItemView.xib */,
+				56133A121B3EEB3200EBCB4F /* DoneView.h */,
+				56133A131B3EEB3200EBCB4F /* DoneView.m */,
+				56133A151B3EEB4300EBCB4F /* DoneView.xib */,
 				561339FD1B3EBB2700EBCB4F /* DrawerView.h */,
 				561339FE1B3EBB2700EBCB4F /* DrawerView.m */,
 				56133A001B3EBB3E00EBCB4F /* DrawerView.xib */,
@@ -194,6 +204,7 @@
 				813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */,
 				56133A0C1B3ECC3000EBCB4F /* Sales.png */,
 				56133A0D1B3ECC3000EBCB4F /* Settings.png */,
+				56133A191B3EF0DF00EBCB4F /* Triangle1.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -292,12 +303,14 @@
 				813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */,
 				56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */,
 				56133A111B3ECC3800EBCB4F /* Add items.png in Resources */,
+				56133A1A1B3EF0DF00EBCB4F /* Triangle1.png in Resources */,
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
 				56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */,
 				561339C01B3E8AC400EBCB4F /* K0000151481_0002.jpg in Resources */,
 				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
+				56133A161B3EEB4300EBCB4F /* DoneView.xib in Resources */,
 				56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +335,7 @@
 				561339A71B3E682500EBCB4F /* LendViewController.m in Sources */,
 				561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */,
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
+				56133A141B3EEB3200EBCB4F /* DoneView.m in Sources */,
 				561339851B3E666000EBCB4F /* AppDelegate.m in Sources */,
 				561339B81B3E89D500EBCB4F /* ItemImageView.m in Sources */,
 				561339D11B3E8E1C00EBCB4F /* DrawerViewController.m in Sources */,

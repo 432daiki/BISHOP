@@ -105,7 +105,7 @@ CO+8jyAxZGF5A
                 <outlet property="textView" destination="Lla-H9-AIg" id="9un-hj-OaW"/>
                 <outlet property="valueLabel" destination="vvt-fS-tng" id="cPl-A1-v5d"/>
             </connections>
-            <point key="canvasLocation" x="352.5" y="366.5"/>
+            <point key="canvasLocation" x="357.5" y="407.5"/>
         </view>
     </objects>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

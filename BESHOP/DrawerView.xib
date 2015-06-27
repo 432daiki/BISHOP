@@ -78,7 +78,7 @@
                 <outlet property="profileImageView" destination="G3g-MU-vft" id="1aL-HD-5ej"/>
                 <outlet property="userNameLabel" destination="pnv-BE-5A8" id="yQB-6h-6iG"/>
             </connections>
-            <point key="canvasLocation" x="287.5" y="317.5"/>
+            <point key="canvasLocation" x="289.5" y="325.5"/>
         </view>
     </objects>
     <resources>
