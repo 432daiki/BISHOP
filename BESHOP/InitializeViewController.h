@@ -10,4 +10,6 @@
 
 @interface InitializeViewController : UIViewController
 
+- (void)jump;
+
 @end

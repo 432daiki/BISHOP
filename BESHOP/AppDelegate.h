@@ -17,5 +17,10 @@
 @property DetailItemView *detailItemView;
 @property NSString *switchFlag;
 
+
+//データを格納する配列
+@property NSMutableArray *itemNameArr;
+@property NSMutableArray *itemImageURLArr;
+
 @end
 

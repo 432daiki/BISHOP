@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="C7w-EQ-UbG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2eu-Gt-dTO">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -7,7 +7,7 @@
         <!--Initialize View Controller-->
         <scene sceneID="R0U-9J-Lib">
             <objects>
-                <viewController storyboardIdentifier="InitializeViewController" id="2eu-Gt-dTO" customClass="InitializeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InitializeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2eu-Gt-dTO" customClass="InitializeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qIs-dB-l11">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,12 +33,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3V-Kp-m5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1315.5" y="-453.5"/>
+            <point key="canvasLocation" x="1233.5" y="-468.5"/>
         </scene>
-        <!--Lend View Controller-->
+        <!--Tutorial View Controller1 View Controller-->
         <scene sceneID="WwW-fv-6yB">
             <objects>
-                <viewController id="15W-at-Bv9" customClass="LendViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Tutorial1" id="15W-at-Bv9" customClass="TutorialViewController1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eb4-6v-q4q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -246,7 +246,7 @@
         <!--MyItemList-->
         <scene sceneID="u3K-YY-FfK">
             <objects>
-                <viewController storyboardIdentifier="Lend" id="HA1-gZ-cWZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Lend" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HA1-gZ-cWZ" customClass="LendViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WJS-RP-eZm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -280,7 +280,7 @@
         <!--Borrow View Controller-->
         <scene sceneID="FzW-id-Dpd">
             <objects>
-                <viewController storyboardIdentifier="Borrow" id="C7w-EQ-UbG" customClass="BorrowViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Borrow" useStoryboardIdentifierAsRestorationIdentifier="YES" id="C7w-EQ-UbG" customClass="BorrowViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w7V-ek-RDX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -338,7 +338,7 @@
         <!--Lend Navigation Controller-->
         <scene sceneID="J1X-EK-wzf">
             <objects>
-                <navigationController storyboardIdentifier="LendNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="37y-Vw-Dzy" customClass="LendNavigationController" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LendNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="37y-Vw-Dzy" customClass="LendNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hm9-Tn-z51">

@@ -50,10 +50,20 @@
     
     NSData *json_data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
     NSDictionary *jsonObject = [NSJSONSerialization JSONObjectWithData:json_data options:NSJSONReadingAllowFragments error:nil];
-    NSLog(@"%@",jsonObject);
+    //NSLog(@"%@",jsonObject);
     
     
     //アイテム名、画像、
+    self.ad.itemNameArr = [NSMutableArray array];
+    self.ad.itemImageURLArr = [NSMutableArray array];
+    
+    for (NSString *itemName in jsonObject[@"name"]) {
+        [self.ad.itemNameArr addObject:itemName];
+    }
+    
+    for (NSArray *photoArr in jsonObject[@"photos"]) {
+        [self.ad.itemImageURLArr addObject:photoArr];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,15 +7,18 @@
 //
 
 #import "UserNameAndThumbNailView.h"
+#import "InitializeViewController.h"
+#import "TutorialViewController1ViewController.h"
 
 @implementation UserNameAndThumbNailView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (IBAction)pushStartButton:(id)sender {
+    
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    TutorialViewController1ViewController *tcv = [storyBoard instantiateViewControllerWithIdentifier:@"Tutorial1"];
+
+    self.window.rootViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self.window.rootViewController presentViewController:tcv animated:NO completion:nil];
 }
-*/
 
 @end
