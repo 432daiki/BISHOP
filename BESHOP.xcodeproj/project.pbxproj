@@ -60,6 +60,7 @@
 		813F5E981B3F20D700051DFB /* MyItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E971B3F20D700051DFB /* MyItemListViewController.m */; };
 		813F5EA41B3F236A00051DFB /* MyItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5EA21B3F236A00051DFB /* MyItemTableViewCell.m */; };
 		813F5EA51B3F236A00051DFB /* MyItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5EA31B3F236A00051DFB /* MyItemTableViewCell.xib */; };
+		813F5EA71B3F28C000051DFB /* lend in Resources */ = {isa = PBXBuildFile; fileRef = 813F5EA61B3F28C000051DFB /* lend */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +151,7 @@
 		813F5EA11B3F236A00051DFB /* MyItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyItemTableViewCell.h; sourceTree = "<group>"; };
 		813F5EA21B3F236A00051DFB /* MyItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyItemTableViewCell.m; sourceTree = "<group>"; };
 		813F5EA31B3F236A00051DFB /* MyItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyItemTableViewCell.xib; sourceTree = "<group>"; };
+		813F5EA61B3F28C000051DFB /* lend */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lend; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 		561339BB1B3E8AA100EBCB4F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				813F5EA61B3F28C000051DFB /* lend */,
 				813F5E781B3EF1AB00051DFB /* Opening */,
 				56133A041B3EC7D500EBCB4F /* Bitmap1.png */,
 				561339BD1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */,
@@ -456,6 +459,7 @@
 				813F5E881B3EFCE700051DFB /* start_button.png in Resources */,
 				813F5E611B3EE19900051DFB /* OpeningView1.xib in Resources */,
 				813F5E8A1B3EFCF000051DFB /* add_picture.png in Resources */,
+				813F5EA71B3F28C000051DFB /* lend in Resources */,
 				813F5E861B3EFCE700051DFB /* register_button.png in Resources */,
 				813F5EA51B3F236A00051DFB /* MyItemTableViewCell.xib in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
