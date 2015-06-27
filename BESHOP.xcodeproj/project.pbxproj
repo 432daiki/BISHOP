@@ -28,9 +28,10 @@
 		561339DC1B3EB20A00EBCB4F /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339DB1B3EB20A00EBCB4F /* SideViewController.m */; };
 		561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339FE1B3EBB2700EBCB4F /* DrawerView.m */; };
 		56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56133A001B3EBB3E00EBCB4F /* DrawerView.xib */; };
-		813F5E471B3ECF2100051DFB /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E461B3ECF2100051DFB /* PostViewController.m */; };
-		813F5E491B3ED00400051DFB /* syupi-n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E481B3ED00400051DFB /* syupi-n.jpg */; };
-		813F5E551B3EDC0700051DFB /* InitializeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E541B3EDC0700051DFB /* InitializeViewController.m */; };
+		56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A041B3EC7D500EBCB4F /* Bitmap1.png */; };
+		56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A0C1B3ECC3000EBCB4F /* Sales.png */; };
+		56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A0D1B3ECC3000EBCB4F /* Settings.png */; };
+		56133A111B3ECC3800EBCB4F /* Add items.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A101B3ECC3800EBCB4F /* Add items.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,11 +80,10 @@
 		561339FD1B3EBB2700EBCB4F /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
 		561339FE1B3EBB2700EBCB4F /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
 		56133A001B3EBB3E00EBCB4F /* DrawerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerView.xib; sourceTree = "<group>"; };
-		813F5E451B3ECF2100051DFB /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
-		813F5E461B3ECF2100051DFB /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
-		813F5E481B3ED00400051DFB /* syupi-n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "syupi-n.jpg"; sourceTree = "<group>"; };
-		813F5E531B3EDC0700051DFB /* InitializeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeViewController.h; sourceTree = "<group>"; };
-		813F5E541B3EDC0700051DFB /* InitializeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeViewController.m; sourceTree = "<group>"; };
+		56133A041B3EC7D500EBCB4F /* Bitmap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap1.png; sourceTree = "<group>"; };
+		56133A0C1B3ECC3000EBCB4F /* Sales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sales.png; sourceTree = "<group>"; };
+		56133A0D1B3ECC3000EBCB4F /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		56133A101B3ECC3800EBCB4F /* Add items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add items.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,19 +130,14 @@
 			children = (
 				561339831B3E666000EBCB4F /* AppDelegate.h */,
 				561339841B3E666000EBCB4F /* AppDelegate.m */,
-				813F5E561B3EDC8700051DFB /* InitializeXibFiles */,
 				561339861B3E666000EBCB4F /* ViewController.h */,
 				561339871B3E666000EBCB4F /* ViewController.m */,
 				561339891B3E666000EBCB4F /* Main.storyboard */,
 				561339DA1B3EB20A00EBCB4F /* SideViewController.h */,
 				561339DB1B3EB20A00EBCB4F /* SideViewController.m */,
-				813F5E531B3EDC0700051DFB /* InitializeViewController.h */,
-				813F5E541B3EDC0700051DFB /* InitializeViewController.m */,
 				561339A51B3E682500EBCB4F /* LendViewController.h */,
 				561339A61B3E682500EBCB4F /* LendViewController.m */,
 				561339A81B3E685400EBCB4F /* BorrowViewController.h */,
-				813F5E451B3ECF2100051DFB /* PostViewController.h */,
-				813F5E461B3ECF2100051DFB /* PostViewController.m */,
 				561339A91B3E685400EBCB4F /* BorrowViewController.m */,
 				561339AB1B3E798400EBCB4F /* ItemTableViewCell.h */,
 				561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */,
@@ -154,11 +149,11 @@
 				561339D41B3E923500EBCB4F /* DetailItemView.h */,
 				561339D51B3E923500EBCB4F /* DetailItemView.m */,
 				561339D21B3E921500EBCB4F /* DetailItemView.xib */,
-				5613398C1B3E666000EBCB4F /* Images.xcassets */,
 				5613398E1B3E666000EBCB4F /* LaunchScreen.xib */,
 				561339FD1B3EBB2700EBCB4F /* DrawerView.h */,
 				561339FE1B3EBB2700EBCB4F /* DrawerView.m */,
 				56133A001B3EBB3E00EBCB4F /* DrawerView.xib */,
+				5613398C1B3E666000EBCB4F /* Images.xcassets */,
 				5613397F1B3E666000EBCB4F /* Supporting Files */,
 			);
 			path = BESHOP;
@@ -193,9 +188,12 @@
 		561339BB1B3E8AA100EBCB4F /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				813F5E481B3ED00400051DFB /* syupi-n.jpg */,
+				56133A041B3EC7D500EBCB4F /* Bitmap1.png */,
 				561339BD1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */,
 				561339BF1B3E8AC400EBCB4F /* K0000151481_0002.jpg */,
+				56133A101B3ECC3800EBCB4F /* Add items.png */,
+				56133A0C1B3ECC3000EBCB4F /* Sales.png */,
+				56133A0D1B3ECC3000EBCB4F /* Settings.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -207,13 +205,6 @@
 			);
 			name = Resources;
 			path = BESHOP.xcodeproj;
-			sourceTree = "<group>";
-		};
-		813F5E561B3EDC8700051DFB /* InitializeXibFiles */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = InitializeXibFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,10 +289,13 @@
 			files = (
 				561339BE1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */,
 				561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */,
+				56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */,
+				56133A111B3ECC3800EBCB4F /* Add items.png in Resources */,
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
+				56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */,
 				561339C01B3E8AC400EBCB4F /* K0000151481_0002.jpg in Resources */,
-				813F5E491B3ED00400051DFB /* syupi-n.jpg in Resources */,
 				561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */,
+				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
 				56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */,
@@ -330,8 +324,6 @@
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
 				561339851B3E666000EBCB4F /* AppDelegate.m in Sources */,
 				561339B81B3E89D500EBCB4F /* ItemImageView.m in Sources */,
-				813F5E471B3ECF2100051DFB /* PostViewController.m in Sources */,
-				813F5E551B3EDC0700051DFB /* InitializeViewController.m in Sources */,
 				561339D11B3E8E1C00EBCB4F /* DrawerViewController.m in Sources */,
 				561339821B3E666000EBCB4F /* main.m in Sources */,
 				561339D61B3E923500EBCB4F /* DetailItemView.m in Sources */,
@@ -529,7 +521,6 @@
 				561339A11B3E666100EBCB4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		561339A21B3E666100EBCB4F /* Build configuration list for PBXNativeTarget "BESHOPTests" */ = {
 			isa = XCConfigurationList;
@@ -538,7 +529,6 @@
 				561339A41B3E666100EBCB4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

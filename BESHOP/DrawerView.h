@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface DrawerView : UIView
+@property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
+@property (weak, nonatomic) IBOutlet UILabel *userNameLabel;
+- (void)setting;
+@property (weak, nonatomic) IBOutlet UIView *backView;
+- (void)showShadow;
 
 @end
