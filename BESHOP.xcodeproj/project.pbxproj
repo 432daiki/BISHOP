@@ -343,12 +343,12 @@
 				56133A131B3EEB3200EBCB4F /* DoneView.m */,
 				56133A151B3EEB4300EBCB4F /* DoneView.xib */,
 				561339A81B3E685400EBCB4F /* BorrowViewController.h */,
+				561339A91B3E685400EBCB4F /* BorrowViewController.m */,
 				561339B61B3E89D500EBCB4F /* ItemImageView.h */,
 				561339B71B3E89D500EBCB4F /* ItemImageView.m */,
 				561339AB1B3E798400EBCB4F /* ItemTableViewCell.h */,
 				561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */,
 				561339AD1B3E798400EBCB4F /* ItemTableViewCell.xib */,
-				561339A91B3E685400EBCB4F /* BorrowViewController.m */,
 			);
 			name = Borrow;
 			sourceTree = "<group>";

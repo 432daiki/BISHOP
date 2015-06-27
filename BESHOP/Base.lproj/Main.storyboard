@@ -38,7 +38,7 @@
         <!--Lend View Controller-->
         <scene sceneID="WwW-fv-6yB">
             <objects>
-                <viewController storyboardIdentifier="Lend" id="15W-at-Bv9" customClass="LendViewController" sceneMemberID="viewController">
+                <viewController id="15W-at-Bv9" customClass="LendViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eb4-6v-q4q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -246,7 +246,7 @@
         <!--MyItemList-->
         <scene sceneID="u3K-YY-FfK">
             <objects>
-                <viewController id="HA1-gZ-cWZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Lend" id="HA1-gZ-cWZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WJS-RP-eZm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -312,6 +312,11 @@
                                         <barButtonItem key="leftBarButtonItem" title="Item" id="3t0-c2-8AJ">
                                             <connections>
                                                 <action selector="pushLeftBarButton:" destination="C7w-EQ-UbG" id="X71-nz-VKd"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="0KQ-0C-VHG">
+                                            <connections>
+                                                <action selector="pushFlipButton:" destination="C7w-EQ-UbG" id="sBi-0s-mKt"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>

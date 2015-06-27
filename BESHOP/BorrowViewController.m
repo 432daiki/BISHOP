@@ -133,17 +133,16 @@
     
 }
 
-- (void)flip{
+
+- (IBAction)pushFlipButton:(id)sender {
     
-    UIStoryboard *storyBoard2 = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
+    LendViewController *lvc = [self.storyboard instantiateViewControllerWithIdentifier:@"Lend"];
     self.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-    
-    LendViewController *lvc = [storyBoard2 instantiateViewControllerWithIdentifier:@"Lend"];
-    
     [self presentViewController:lvc animated:YES completion:nil];
     
 }
+
 
 
 @end
