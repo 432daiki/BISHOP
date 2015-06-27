@@ -79,6 +79,7 @@
             <connections>
                 <outlet property="backView" destination="Cj2-z4-rNi" id="46S-X0-kgK"/>
                 <outlet property="profileImageView" destination="G3g-MU-vft" id="1aL-HD-5ej"/>
+                <outlet property="switchButton" destination="l62-mu-lLt" id="uxd-hl-mP3"/>
                 <outlet property="userNameLabel" destination="pnv-BE-5A8" id="yQB-6h-6iG"/>
             </connections>
             <point key="canvasLocation" x="289.5" y="325.5"/>
