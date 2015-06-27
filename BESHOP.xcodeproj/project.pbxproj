@@ -31,6 +31,7 @@
 		56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A0C1B3ECC3000EBCB4F /* Sales.png */; };
 		56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A0D1B3ECC3000EBCB4F /* Settings.png */; };
 		56133A111B3ECC3800EBCB4F /* Add items.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A101B3ECC3800EBCB4F /* Add items.png */; };
+		813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		56133A0C1B3ECC3000EBCB4F /* Sales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sales.png; sourceTree = "<group>"; };
 		56133A0D1B3ECC3000EBCB4F /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		56133A101B3ECC3800EBCB4F /* Add items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add items.png"; sourceTree = "<group>"; };
+		813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add_items_bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				561339BD1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */,
 				561339BF1B3E8AC400EBCB4F /* K0000151481_0002.jpg */,
 				56133A101B3ECC3800EBCB4F /* Add items.png */,
+				813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */,
 				56133A0C1B3ECC3000EBCB4F /* Sales.png */,
 				56133A0D1B3ECC3000EBCB4F /* Settings.png */,
 			);
@@ -286,6 +289,7 @@
 			files = (
 				561339BE1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */,
 				561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */,
+				813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */,
 				56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */,
 				56133A111B3ECC3800EBCB4F /* Add items.png in Resources */,
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
@@ -509,6 +513,7 @@
 				561339A11B3E666100EBCB4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		561339A21B3E666100EBCB4F /* Build configuration list for PBXNativeTarget "BESHOPTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				561339A41B3E666100EBCB4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
