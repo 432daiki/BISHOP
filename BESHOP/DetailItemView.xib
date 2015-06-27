@@ -86,9 +86,9 @@ CO+8jyAxZGF5A
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Lla-H9-AIg">
                     <rect key="frame" x="0.0" y="344" width="375" height="262"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <mutableString key="text"> シーンモードを使うと、日常的なシーンから特別な瞬間まで、多様な撮影が楽しめます。撮りたいシーンが決まっているときは、シーンモードが便利。モードダイヤルを撮りたいシーンに合わせるだけで、カメラが最適な設定を自動的に選択するので、カンタンにキレイな写真が撮れます。
+                    <string key="text"> シーンモードを使うと、日常的なシーンから特別な瞬間まで、多様な撮影が楽しめます。撮りたいシーンが決まっているときは、シーンモードが便利。モードダイヤルを撮りたいシーンに合わせるだけで、カメラが最適な設定を自動的に選択するので、カンタンにキレイな写真が撮れます。
    内蔵フラッシュの発光までカメラまかせの［オート］、フラッシュを発光させない［ 発光禁止オート］も選択可能。こだわって撮影するなら、P（プログラムオート）、S（シャッター優先オート）、A（絞り優先オート）、M（マニュアル）の4つの撮影モードが最適。絞りとシャッタースピードの組み合わせを自分で選んで撮影できます。
-</mutableString>
+</string>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>

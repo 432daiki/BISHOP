@@ -11,6 +11,7 @@
 #import "BorrowViewController.h"
 
 @interface LendViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *myItemList;
 
 @end
 

@@ -57,10 +57,10 @@
 		813F5E8F1B3F207300051DFB /* LendNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E8E1B3F207300051DFB /* LendNavigationController.m */; };
 		813F5E921B3F20A800051DFB /* SelectGenreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E911B3F20A800051DFB /* SelectGenreViewController.m */; };
 		813F5E951B3F20C500051DFB /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E941B3F20C500051DFB /* EditInfoViewController.m */; };
-		813F5E981B3F20D700051DFB /* MyItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E971B3F20D700051DFB /* MyItemListViewController.m */; };
 		813F5EA41B3F236A00051DFB /* MyItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5EA21B3F236A00051DFB /* MyItemTableViewCell.m */; };
 		813F5EA51B3F236A00051DFB /* MyItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5EA31B3F236A00051DFB /* MyItemTableViewCell.xib */; };
 		813F5EA71B3F28C000051DFB /* lend in Resources */ = {isa = PBXBuildFile; fileRef = 813F5EA61B3F28C000051DFB /* lend */; };
+		813F5EAF1B3F681900051DFB /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5EAE1B3F681900051DFB /* camera.png */; };
 		91A4CEDB1B3F63530090025C /* Cabin-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91A4CED31B3F63530090025C /* Cabin-Bold.otf */; };
 		91A4CEDC1B3F63530090025C /* Cabin-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91A4CED41B3F63530090025C /* Cabin-BoldItalic.otf */; };
 		91A4CEDD1B3F63530090025C /* Cabin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91A4CED51B3F63530090025C /* Cabin-Italic.otf */; };
@@ -159,12 +159,11 @@
 		813F5E911B3F20A800051DFB /* SelectGenreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectGenreViewController.m; sourceTree = "<group>"; };
 		813F5E931B3F20C500051DFB /* EditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditInfoViewController.h; sourceTree = "<group>"; };
 		813F5E941B3F20C500051DFB /* EditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditInfoViewController.m; sourceTree = "<group>"; };
-		813F5E961B3F20D700051DFB /* MyItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyItemListViewController.h; sourceTree = "<group>"; };
-		813F5E971B3F20D700051DFB /* MyItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyItemListViewController.m; sourceTree = "<group>"; };
 		813F5EA11B3F236A00051DFB /* MyItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyItemTableViewCell.h; sourceTree = "<group>"; };
 		813F5EA21B3F236A00051DFB /* MyItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyItemTableViewCell.m; sourceTree = "<group>"; };
 		813F5EA31B3F236A00051DFB /* MyItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyItemTableViewCell.xib; sourceTree = "<group>"; };
 		813F5EA61B3F28C000051DFB /* lend */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lend; sourceTree = "<group>"; };
+		813F5EAE1B3F681900051DFB /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		91A4CED31B3F63530090025C /* Cabin-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold.otf"; sourceTree = "<group>"; };
 		91A4CED41B3F63530090025C /* Cabin-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-BoldItalic.otf"; sourceTree = "<group>"; };
 		91A4CED51B3F63530090025C /* Cabin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Italic.otf"; sourceTree = "<group>"; };
@@ -273,6 +272,7 @@
 				813F5EA61B3F28C000051DFB /* lend */,
 				813F5E781B3EF1AB00051DFB /* Opening */,
 				56133A041B3EC7D500EBCB4F /* Bitmap1.png */,
+				813F5EAE1B3F681900051DFB /* camera.png */,
 				561339BD1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */,
 				561339BF1B3E8AC400EBCB4F /* K0000151481_0002.jpg */,
 				813F5E8B1B3F186F00051DFB /* syupin.jpg */,
@@ -348,8 +348,6 @@
 				813F5E911B3F20A800051DFB /* SelectGenreViewController.m */,
 				813F5E931B3F20C500051DFB /* EditInfoViewController.h */,
 				813F5E941B3F20C500051DFB /* EditInfoViewController.m */,
-				813F5E961B3F20D700051DFB /* MyItemListViewController.h */,
-				813F5E971B3F20D700051DFB /* MyItemListViewController.m */,
 				813F5E8D1B3F207300051DFB /* LendNavigationController.h */,
 				813F5E8E1B3F207300051DFB /* LendNavigationController.m */,
 			);
@@ -508,6 +506,7 @@
 				91A4CEDC1B3F63530090025C /* Cabin-BoldItalic.otf in Resources */,
 				91FF4D8A1B3F318600A24F80 /* text_1.png in Resources */,
 				813F5E7D1B3EF21900051DFB /* tutorial_2_bg.jpg in Resources */,
+				813F5EAF1B3F681900051DFB /* camera.png in Resources */,
 				813F5E7A1B3EF1C300051DFB /* tutorial_1_bg.jpg in Resources */,
 				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
@@ -551,7 +550,6 @@
 				813F5E6B1B3EEB6600051DFB /* MailAndPassView.m in Sources */,
 				813F5E741B3EEBE500051DFB /* OpeningView2.m in Sources */,
 				561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */,
-				813F5E981B3F20D700051DFB /* MyItemListViewController.m in Sources */,
 				813F5E6E1B3EEBA300051DFB /* UserNameAndThumbNailView.m in Sources */,
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
 				813F5E951B3F20C500051DFB /* EditInfoViewController.m in Sources */,
