@@ -10,13 +10,11 @@
 #import "ItemTableViewCell.h"
 #import <QuartzCore/QuartzCore.h>
 #import "DrawerView.h"
-#import "DetailItemView.h"
 #import "AppDelegate.h"
 
 @interface BorrowViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property DrawerView *drawerView;
-@property DetailItemView *detailItemView;
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
 @property AppDelegate *ad;
@@ -91,13 +89,19 @@
 //    UITableViewCell *subCell = [tableView cellForRowAtIndexPath:indexPath];
 //    ItemTableViewCell *cell = (ItemTableViewCell*)subCell;
     
+    
+    self.ad.detailItemView = [[DetailItemView alloc] init];
     UINib *nib = [UINib nibWithNibName:@"DetailItemView" bundle:nil];
-    self.detailItemView = [[nib instantiateWithOwner:nil options:nil]objectAtIndex:0];
-    self.detailItemView.frame = CGRectMake(0, 667, 375, 667);
-    [self.view addSubview:self.detailItemView];
+    self.ad.detailItemView = [[nib instantiateWithOwner:nil options:nil]objectAtIndex:0];
+    self.ad.detailItemView.frame = CGRectMake(0, 667, 375, 667);
+    [self.ad.detailItemView setting];
+    [self.view addSubview:self.ad.detailItemView];
     
-    
-
+    [UIView animateWithDuration:0.6 delay:0 usingSpringWithDamping:1 initialSpringVelocity:0.6 options:UIViewAnimationOptionCurveLinear animations:^(void){
+        
+        self.ad.detailItemView.frame = CGRectMake(0, 0, 375, 667);
+        
+    }completion:nil];
 }
 
 - (IBAction)pushLeftBarButton:(id)sender {
