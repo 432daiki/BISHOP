@@ -47,6 +47,11 @@
 		813F5E7D1B3EF21900051DFB /* tutorial_2_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E7B1B3EF21900051DFB /* tutorial_2_bg.jpg */; };
 		813F5E7E1B3EF21900051DFB /* tutorial_3_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E7C1B3EF21900051DFB /* tutorial_3_bg.jpg */; };
 		813F5E801B3EF3DB00051DFB /* golden_gate_bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E7F1B3EF3DB00051DFB /* golden_gate_bridge.jpg */; };
+		813F5E851B3EFCE700051DFB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E811B3EFCE700051DFB /* logo.png */; };
+		813F5E861B3EFCE700051DFB /* register_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E821B3EFCE700051DFB /* register_button.png */; };
+		813F5E871B3EFCE700051DFB /* shaleotsu_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E831B3EFCE700051DFB /* shaleotsu_line.png */; };
+		813F5E881B3EFCE700051DFB /* start_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E841B3EFCE700051DFB /* start_button.png */; };
+		813F5E8A1B3EFCF000051DFB /* add_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E891B3EFCF000051DFB /* add_picture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +125,11 @@
 		813F5E7B1B3EF21900051DFB /* tutorial_2_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutorial_2_bg.jpg; sourceTree = "<group>"; };
 		813F5E7C1B3EF21900051DFB /* tutorial_3_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tutorial_3_bg.jpg; sourceTree = "<group>"; };
 		813F5E7F1B3EF3DB00051DFB /* golden_gate_bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golden_gate_bridge.jpg; sourceTree = "<group>"; };
+		813F5E811B3EFCE700051DFB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		813F5E821B3EFCE700051DFB /* register_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_button.png; sourceTree = "<group>"; };
+		813F5E831B3EFCE700051DFB /* shaleotsu_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shaleotsu_line.png; sourceTree = "<group>"; };
+		813F5E841B3EFCE700051DFB /* start_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_button.png; sourceTree = "<group>"; };
+		813F5E891B3EFCF000051DFB /* add_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_picture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +282,11 @@
 		813F5E781B3EF1AB00051DFB /* Opening */ = {
 			isa = PBXGroup;
 			children = (
+				813F5E811B3EFCE700051DFB /* logo.png */,
+				813F5E891B3EFCF000051DFB /* add_picture.png */,
+				813F5E821B3EFCE700051DFB /* register_button.png */,
+				813F5E831B3EFCE700051DFB /* shaleotsu_line.png */,
+				813F5E841B3EFCE700051DFB /* start_button.png */,
 				813F5E7F1B3EF3DB00051DFB /* golden_gate_bridge.jpg */,
 				813F5E7B1B3EF21900051DFB /* tutorial_2_bg.jpg */,
 				813F5E7C1B3EF21900051DFB /* tutorial_3_bg.jpg */,
@@ -362,6 +377,7 @@
 			files = (
 				561339BE1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */,
 				561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */,
+				813F5E851B3EFCE700051DFB /* logo.png in Resources */,
 				813F5E801B3EF3DB00051DFB /* golden_gate_bridge.jpg in Resources */,
 				813F5E7E1B3EF21900051DFB /* tutorial_3_bg.jpg in Resources */,
 				813F5E5D1B3EDF5300051DFB /* MailAndPassView.xib in Resources */,
@@ -371,7 +387,7 @@
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
 				56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */,
 				561339C01B3E8AC400EBCB4F /* K0000151481_0002.jpg in Resources */,
-				561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */,
+				813F5E871B3EFCE700051DFB /* shaleotsu_line.png in Resources */,
 				813F5E5F1B3EE17000051DFB /* UserNameAndThumbNailView.xib in Resources */,
 				813F5E651B3EE1B800051DFB /* OpeningView3.xib in Resources */,
 				813F5E631B3EE1A900051DFB /* OpeningView2.xib in Resources */,
@@ -379,7 +395,10 @@
 				813F5E7A1B3EF1C300051DFB /* tutorial_1_bg.jpg in Resources */,
 				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
+				813F5E881B3EFCE700051DFB /* start_button.png in Resources */,
 				813F5E611B3EE19900051DFB /* OpeningView1.xib in Resources */,
+				813F5E8A1B3EFCF000051DFB /* add_picture.png in Resources */,
+				813F5E861B3EFCE700051DFB /* register_button.png in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
 				56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */,
 			);
