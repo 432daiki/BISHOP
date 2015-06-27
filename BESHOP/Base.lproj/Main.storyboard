@@ -84,7 +84,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="syupi-n.jpg" id="9WI-Tc-1fW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_items_bg.jpg" id="9WI-Tc-1fW">
                                 <rect key="frame" x="-6" y="0.0" width="381" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -218,7 +218,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="syupi-n.jpg" width="719" height="1280"/>
+        <image name="add_items_bg.jpg" width="719" height="1280"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
