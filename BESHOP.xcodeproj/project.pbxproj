@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		561339821B3E666000EBCB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339811B3E666000EBCB4F /* main.m */; };
 		561339851B3E666000EBCB4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339841B3E666000EBCB4F /* AppDelegate.m */; };
-		561339881B3E666000EBCB4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339871B3E666000EBCB4F /* ViewController.m */; };
 		5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561339891B3E666000EBCB4F /* Main.storyboard */; };
 		5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5613398C1B3E666000EBCB4F /* Images.xcassets */; };
 		5613399C1B3E666100EBCB4F /* BESHOPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5613399B1B3E666100EBCB4F /* BESHOPTests.m */; };
@@ -24,7 +23,6 @@
 		561339D11B3E8E1C00EBCB4F /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339D01B3E8E1C00EBCB4F /* DrawerViewController.m */; };
 		561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561339D21B3E921500EBCB4F /* DetailItemView.xib */; };
 		561339D61B3E923500EBCB4F /* DetailItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339D51B3E923500EBCB4F /* DetailItemView.m */; };
-		561339DC1B3EB20A00EBCB4F /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339DB1B3EB20A00EBCB4F /* SideViewController.m */; };
 		561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339FE1B3EBB2700EBCB4F /* DrawerView.m */; };
 		56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56133A001B3EBB3E00EBCB4F /* DrawerView.xib */; };
 		56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A041B3EC7D500EBCB4F /* Bitmap1.png */; };
@@ -56,6 +54,10 @@
 		813F5E881B3EFCE700051DFB /* start_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E841B3EFCE700051DFB /* start_button.png */; };
 		813F5E8A1B3EFCF000051DFB /* add_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E891B3EFCF000051DFB /* add_picture.png */; };
 		813F5E8C1B3F186F00051DFB /* syupin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E8B1B3F186F00051DFB /* syupin.jpg */; };
+		813F5E8F1B3F207300051DFB /* LendNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E8E1B3F207300051DFB /* LendNavigationController.m */; };
+		813F5E921B3F20A800051DFB /* SelectGenreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E911B3F20A800051DFB /* SelectGenreViewController.m */; };
+		813F5E951B3F20C500051DFB /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E941B3F20C500051DFB /* EditInfoViewController.m */; };
+		813F5E981B3F20D700051DFB /* MyItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E971B3F20D700051DFB /* MyItemListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,8 +76,6 @@
 		561339811B3E666000EBCB4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		561339831B3E666000EBCB4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		561339841B3E666000EBCB4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		561339861B3E666000EBCB4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		561339871B3E666000EBCB4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5613398A1B3E666000EBCB4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5613398C1B3E666000EBCB4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		561339951B3E666100EBCB4F /* BESHOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BESHOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,8 +98,6 @@
 		561339D21B3E921500EBCB4F /* DetailItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailItemView.xib; sourceTree = "<group>"; };
 		561339D41B3E923500EBCB4F /* DetailItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailItemView.h; sourceTree = "<group>"; };
 		561339D51B3E923500EBCB4F /* DetailItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailItemView.m; sourceTree = "<group>"; };
-		561339DA1B3EB20A00EBCB4F /* SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideViewController.h; sourceTree = "<group>"; };
-		561339DB1B3EB20A00EBCB4F /* SideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideViewController.m; sourceTree = "<group>"; };
 		561339FD1B3EBB2700EBCB4F /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
 		561339FE1B3EBB2700EBCB4F /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
 		56133A001B3EBB3E00EBCB4F /* DrawerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerView.xib; sourceTree = "<group>"; };
@@ -139,6 +137,14 @@
 		813F5E841B3EFCE700051DFB /* start_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_button.png; sourceTree = "<group>"; };
 		813F5E891B3EFCF000051DFB /* add_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_picture.png; sourceTree = "<group>"; };
 		813F5E8B1B3F186F00051DFB /* syupin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = syupin.jpg; sourceTree = "<group>"; };
+		813F5E8D1B3F207300051DFB /* LendNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LendNavigationController.h; sourceTree = "<group>"; };
+		813F5E8E1B3F207300051DFB /* LendNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LendNavigationController.m; sourceTree = "<group>"; };
+		813F5E901B3F20A800051DFB /* SelectGenreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectGenreViewController.h; sourceTree = "<group>"; };
+		813F5E911B3F20A800051DFB /* SelectGenreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectGenreViewController.m; sourceTree = "<group>"; };
+		813F5E931B3F20C500051DFB /* EditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditInfoViewController.h; sourceTree = "<group>"; };
+		813F5E941B3F20C500051DFB /* EditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditInfoViewController.m; sourceTree = "<group>"; };
+		813F5E961B3F20D700051DFB /* MyItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyItemListViewController.h; sourceTree = "<group>"; };
+		813F5E971B3F20D700051DFB /* MyItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyItemListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,33 +189,14 @@
 		5613397E1B3E666000EBCB4F /* BESHOP */ = {
 			isa = PBXGroup;
 			children = (
-				813F5E5B1B3EDE1300051DFB /* InitializeXibFiles */,
+				813F5E9B1B3F213900051DFB /* Opening */,
+				813F5E9A1B3F20F200051DFB /* Borrow */,
+				813F5E991B3F20E200051DFB /* Lend */,
 				561339831B3E666000EBCB4F /* AppDelegate.h */,
 				561339841B3E666000EBCB4F /* AppDelegate.m */,
-				561339861B3E666000EBCB4F /* ViewController.h */,
-				561339871B3E666000EBCB4F /* ViewController.m */,
 				561339891B3E666000EBCB4F /* Main.storyboard */,
-				561339DA1B3EB20A00EBCB4F /* SideViewController.h */,
-				561339DB1B3EB20A00EBCB4F /* SideViewController.m */,
-				813F5E661B3EE26F00051DFB /* InitializeViewController.h */,
-				813F5E671B3EE26F00051DFB /* InitializeViewController.m */,
-				561339A51B3E682500EBCB4F /* LendViewController.h */,
-				561339A61B3E682500EBCB4F /* LendViewController.m */,
-				561339A81B3E685400EBCB4F /* BorrowViewController.h */,
-				561339A91B3E685400EBCB4F /* BorrowViewController.m */,
-				561339AB1B3E798400EBCB4F /* ItemTableViewCell.h */,
-				561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */,
-				561339AD1B3E798400EBCB4F /* ItemTableViewCell.xib */,
-				561339B61B3E89D500EBCB4F /* ItemImageView.h */,
-				561339B71B3E89D500EBCB4F /* ItemImageView.m */,
 				561339CF1B3E8E1C00EBCB4F /* DrawerViewController.h */,
 				561339D01B3E8E1C00EBCB4F /* DrawerViewController.m */,
-				561339D41B3E923500EBCB4F /* DetailItemView.h */,
-				561339D51B3E923500EBCB4F /* DetailItemView.m */,
-				561339D21B3E921500EBCB4F /* DetailItemView.xib */,
-				56133A121B3EEB3200EBCB4F /* DoneView.h */,
-				56133A131B3EEB3200EBCB4F /* DoneView.m */,
-				56133A151B3EEB4300EBCB4F /* DoneView.xib */,
 				561339FD1B3EBB2700EBCB4F /* DrawerView.h */,
 				561339FE1B3EBB2700EBCB4F /* DrawerView.m */,
 				56133A001B3EBB3E00EBCB4F /* DrawerView.xib */,
@@ -305,6 +292,53 @@
 				813F5E7B1B3EF21900051DFB /* tutorial_2_bg.jpg */,
 				813F5E7C1B3EF21900051DFB /* tutorial_3_bg.jpg */,
 				813F5E791B3EF1C300051DFB /* tutorial_1_bg.jpg */,
+			);
+			name = Opening;
+			sourceTree = "<group>";
+		};
+		813F5E991B3F20E200051DFB /* Lend */ = {
+			isa = PBXGroup;
+			children = (
+				561339A51B3E682500EBCB4F /* LendViewController.h */,
+				561339A61B3E682500EBCB4F /* LendViewController.m */,
+				813F5E901B3F20A800051DFB /* SelectGenreViewController.h */,
+				813F5E911B3F20A800051DFB /* SelectGenreViewController.m */,
+				813F5E931B3F20C500051DFB /* EditInfoViewController.h */,
+				813F5E941B3F20C500051DFB /* EditInfoViewController.m */,
+				813F5E961B3F20D700051DFB /* MyItemListViewController.h */,
+				813F5E971B3F20D700051DFB /* MyItemListViewController.m */,
+				813F5E8D1B3F207300051DFB /* LendNavigationController.h */,
+				813F5E8E1B3F207300051DFB /* LendNavigationController.m */,
+			);
+			name = Lend;
+			sourceTree = "<group>";
+		};
+		813F5E9A1B3F20F200051DFB /* Borrow */ = {
+			isa = PBXGroup;
+			children = (
+				561339D41B3E923500EBCB4F /* DetailItemView.h */,
+				561339D51B3E923500EBCB4F /* DetailItemView.m */,
+				561339D21B3E921500EBCB4F /* DetailItemView.xib */,
+				56133A121B3EEB3200EBCB4F /* DoneView.h */,
+				56133A131B3EEB3200EBCB4F /* DoneView.m */,
+				56133A151B3EEB4300EBCB4F /* DoneView.xib */,
+				561339A81B3E685400EBCB4F /* BorrowViewController.h */,
+				561339B61B3E89D500EBCB4F /* ItemImageView.h */,
+				561339B71B3E89D500EBCB4F /* ItemImageView.m */,
+				561339AB1B3E798400EBCB4F /* ItemTableViewCell.h */,
+				561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */,
+				561339AD1B3E798400EBCB4F /* ItemTableViewCell.xib */,
+				561339A91B3E685400EBCB4F /* BorrowViewController.m */,
+			);
+			name = Borrow;
+			sourceTree = "<group>";
+		};
+		813F5E9B1B3F213900051DFB /* Opening */ = {
+			isa = PBXGroup;
+			children = (
+				813F5E661B3EE26F00051DFB /* InitializeViewController.h */,
+				813F5E671B3EE26F00051DFB /* InitializeViewController.m */,
+				813F5E5B1B3EDE1300051DFB /* InitializeXibFiles */,
 			);
 			name = Opening;
 			sourceTree = "<group>";
@@ -436,16 +470,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				561339AE1B3E798400EBCB4F /* ItemTableViewCell.m in Sources */,
-				561339881B3E666000EBCB4F /* ViewController.m in Sources */,
+				813F5E8F1B3F207300051DFB /* LendNavigationController.m in Sources */,
 				813F5E681B3EE26F00051DFB /* InitializeViewController.m in Sources */,
-				561339DC1B3EB20A00EBCB4F /* SideViewController.m in Sources */,
 				561339A71B3E682500EBCB4F /* LendViewController.m in Sources */,
+				813F5E921B3F20A800051DFB /* SelectGenreViewController.m in Sources */,
 				813F5E771B3EEBFA00051DFB /* OpeningView3.m in Sources */,
 				813F5E6B1B3EEB6600051DFB /* MailAndPassView.m in Sources */,
 				813F5E741B3EEBE500051DFB /* OpeningView2.m in Sources */,
 				561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */,
+				813F5E981B3F20D700051DFB /* MyItemListViewController.m in Sources */,
 				813F5E6E1B3EEBA300051DFB /* UserNameAndThumbNailView.m in Sources */,
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
+				813F5E951B3F20C500051DFB /* EditInfoViewController.m in Sources */,
 				56133A141B3EEB3200EBCB4F /* DoneView.m in Sources */,
 				561339851B3E666000EBCB4F /* AppDelegate.m in Sources */,
 				561339B81B3E89D500EBCB4F /* ItemImageView.m in Sources */,

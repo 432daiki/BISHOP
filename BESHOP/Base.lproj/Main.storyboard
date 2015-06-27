@@ -95,7 +95,7 @@
         <!--Select Grenre-->
         <scene sceneID="FtR-df-GrZ">
             <objects>
-                <viewController id="IMh-qP-hdk" sceneMemberID="viewController">
+                <viewController id="IMh-qP-hdk" customClass="SelectGenreViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="euu-Un-Au2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -241,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ek0-qE-c98" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2650.5" y="1104.5"/>
+            <point key="canvasLocation" x="2680.5" y="1104.5"/>
         </scene>
         <!--MyItemList-->
         <scene sceneID="u3K-YY-FfK">
@@ -321,12 +321,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a5N-As-kRO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2650.5" y="198.5"/>
+            <point key="canvasLocation" x="2680.5" y="198.5"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Lend Navigation Controller-->
         <scene sceneID="J1X-EK-wzf">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="37y-Vw-Dzy" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="37y-Vw-Dzy" customClass="LendNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hm9-Tn-z51">
