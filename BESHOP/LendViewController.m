@@ -25,7 +25,8 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if([[segue identifier] isEqualToString:@"segue"]) {
+    
+    if([[segue identifier] isEqualToString:@"ToBorrow"]) {
         
         
     }

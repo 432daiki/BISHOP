@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="15W-at-Bv9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -16,28 +16,52 @@
                                 <rect key="frame" x="112" y="286" width="151" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="inputMailAdress:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="zEo-wh-76P"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="fJz-VD-JSp">
                                 <rect key="frame" x="112" y="355" width="151" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="inputUserName:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="2BQ-XD-Lqc"/>
+                                </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Pqi-ea-2Kj">
+                                <rect key="frame" x="172" y="505" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="登録">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushResistButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tQw-ML-2eL"/>
+                                </connections>
+                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="Fic-cK-Ypp">
                                 <rect key="frame" x="112" y="427" width="151" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="inputPassword:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="cWK-eB-WgU"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="mailAdressTextField" destination="t5l-JG-LcN" id="BAF-46-NEi"/>
+                        <outlet property="passwordTextField" destination="Fic-cK-Ypp" id="4oN-1N-BUg"/>
+                        <outlet property="userNameTextField" destination="fJz-VD-JSp" id="QoP-bn-tDX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36.5" y="244.5"/>
+            <point key="canvasLocation" x="37.5" y="256.5"/>
         </scene>
         <!--Lend View Controller-->
         <scene sceneID="WwW-fv-6yB">
@@ -72,7 +96,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="C7w-EQ-UbG" kind="modal" identifier="segue" modalTransitionStyle="flipHorizontal" id="TPo-xR-fyi"/>
+                                    <segue destination="C7w-EQ-UbG" kind="modal" identifier="ToBorrow" modalTransitionStyle="flipHorizontal" id="TPo-xR-fyi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GTV-4b-jXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="488.5" y="230.5"/>
+            <point key="canvasLocation" x="510.5" y="230.5"/>
         </scene>
         <!--Borrow View Controller-->
         <scene sceneID="FzW-id-Dpd">
@@ -99,7 +123,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="15W-at-Bv9" kind="modal" modalTransitionStyle="flipHorizontal" id="YCe-Yl-2hI"/>
+                                    <segue destination="15W-at-Bv9" kind="modal" identifier="ToLend" modalTransitionStyle="flipHorizontal" id="YCe-Yl-2hI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -109,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a5N-As-kRO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1316.5" y="-3.5"/>
+            <point key="canvasLocation" x="1332.5" y="210.5"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
