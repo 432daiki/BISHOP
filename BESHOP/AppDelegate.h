@@ -15,6 +15,7 @@
 @property NSString *animationDirection;
 
 @property DetailItemView *detailItemView;
+@property NSString *switchFlag;
 
 @end
 

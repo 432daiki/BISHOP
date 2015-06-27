@@ -28,6 +28,9 @@
                         <color key="titleColor" red="0.95294117649999999" green="0.96470588239999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushSwitchButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="cGD-Y8-CKf"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11145066_830295770382605_8492820296412019713_n.jpg" id="G3g-MU-vft">
                     <rect key="frame" x="25" y="50" width="60" height="60"/>

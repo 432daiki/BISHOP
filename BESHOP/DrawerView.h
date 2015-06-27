@@ -15,4 +15,6 @@
 @property (weak, nonatomic) IBOutlet UIView *backView;
 - (void)showShadow;
 
+@property NSString *switchFlag;
+
 @end
