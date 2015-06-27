@@ -58,6 +58,8 @@
 		813F5E921B3F20A800051DFB /* SelectGenreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E911B3F20A800051DFB /* SelectGenreViewController.m */; };
 		813F5E951B3F20C500051DFB /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E941B3F20C500051DFB /* EditInfoViewController.m */; };
 		813F5E981B3F20D700051DFB /* MyItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5E971B3F20D700051DFB /* MyItemListViewController.m */; };
+		813F5EA41B3F236A00051DFB /* MyItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 813F5EA21B3F236A00051DFB /* MyItemTableViewCell.m */; };
+		813F5EA51B3F236A00051DFB /* MyItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5EA31B3F236A00051DFB /* MyItemTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +147,9 @@
 		813F5E941B3F20C500051DFB /* EditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditInfoViewController.m; sourceTree = "<group>"; };
 		813F5E961B3F20D700051DFB /* MyItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyItemListViewController.h; sourceTree = "<group>"; };
 		813F5E971B3F20D700051DFB /* MyItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyItemListViewController.m; sourceTree = "<group>"; };
+		813F5EA11B3F236A00051DFB /* MyItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyItemTableViewCell.h; sourceTree = "<group>"; };
+		813F5EA21B3F236A00051DFB /* MyItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyItemTableViewCell.m; sourceTree = "<group>"; };
+		813F5EA31B3F236A00051DFB /* MyItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyItemTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,6 +304,9 @@
 		813F5E991B3F20E200051DFB /* Lend */ = {
 			isa = PBXGroup;
 			children = (
+				813F5EA11B3F236A00051DFB /* MyItemTableViewCell.h */,
+				813F5EA21B3F236A00051DFB /* MyItemTableViewCell.m */,
+				813F5EA31B3F236A00051DFB /* MyItemTableViewCell.xib */,
 				561339A51B3E682500EBCB4F /* LendViewController.h */,
 				561339A61B3E682500EBCB4F /* LendViewController.m */,
 				813F5E901B3F20A800051DFB /* SelectGenreViewController.h */,
@@ -449,6 +457,7 @@
 				813F5E611B3EE19900051DFB /* OpeningView1.xib in Resources */,
 				813F5E8A1B3EFCF000051DFB /* add_picture.png in Resources */,
 				813F5E861B3EFCE700051DFB /* register_button.png in Resources */,
+				813F5EA51B3F236A00051DFB /* MyItemTableViewCell.xib in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
 				56133A161B3EEB4300EBCB4F /* DoneView.xib in Resources */,
 				56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */,
@@ -482,6 +491,7 @@
 				813F5E6E1B3EEBA300051DFB /* UserNameAndThumbNailView.m in Sources */,
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
 				813F5E951B3F20C500051DFB /* EditInfoViewController.m in Sources */,
+				813F5EA41B3F236A00051DFB /* MyItemTableViewCell.m in Sources */,
 				56133A141B3EEB3200EBCB4F /* DoneView.m in Sources */,
 				561339851B3E666000EBCB4F /* AppDelegate.m in Sources */,
 				561339B81B3E89D500EBCB4F /* ItemImageView.m in Sources */,
