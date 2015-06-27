@@ -43,6 +43,17 @@
     
     self.ad.animationDirection = @"LEFT";
     
+    
+    NSString *urlStr = @"http://winvelab.in/beshop/items";
+    NSURL *URL = [NSURL URLWithString:urlStr];
+    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+    
+    NSData *json_data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    NSDictionary *jsonObject = [NSJSONSerialization JSONObjectWithData:json_data options:NSJSONReadingAllowFragments error:nil];
+    NSLog(@"%@",jsonObject);
+    
+    
+    //アイテム名、画像、
 }
 
 - (void)didReceiveMemoryWarning {
