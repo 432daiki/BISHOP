@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DoneView.h"
+#import "BorrowViewController.h"
 
 @interface DetailItemView : UIView
 
@@ -18,5 +20,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *starLabel;
 @property (weak, nonatomic) IBOutlet UILabel *starNumLabel;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
+
+- (void)setting;
+
+@property DoneView *doneView;
+@property BorrowViewController *borrowViewController;
 
 @end

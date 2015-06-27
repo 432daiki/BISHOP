@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailItemView.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property NSString *animationDirection;
+
+@property DetailItemView *detailItemView;
 
 @end
 

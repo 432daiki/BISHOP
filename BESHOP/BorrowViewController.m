@@ -64,6 +64,7 @@
     
     cell.userImageView.layer.cornerRadius = 13.5;
     cell.userImageView.clipsToBounds = YES;
+    cell.tag = indexPath.row+1;
     
     //影
     cell.itemImageView.layer.masksToBounds = NO;
@@ -83,7 +84,25 @@
     }
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+//    UITableViewCell *subCell = [tableView cellForRowAtIndexPath:indexPath];
+//    ItemTableViewCell *cell = (ItemTableViewCell*)subCell;
+    
+    
+    self.ad.detailItemView = [[DetailItemView alloc] init];
+    UINib *nib = [UINib nibWithNibName:@"DetailItemView" bundle:nil];
+    self.ad.detailItemView = [[nib instantiateWithOwner:nil options:nil]objectAtIndex:0];
+    self.ad.detailItemView.frame = CGRectMake(0, 667, 375, 667);
+    [self.ad.detailItemView setting];
+    [self.view addSubview:self.ad.detailItemView];
+    
+    [UIView animateWithDuration:0.6 delay:0 usingSpringWithDamping:1 initialSpringVelocity:0.6 options:UIViewAnimationOptionCurveLinear animations:^(void){
+        
+        self.ad.detailItemView.frame = CGRectMake(0, 0, 375, 667);
+        
+    }completion:nil];
+}
 
 - (IBAction)pushLeftBarButton:(id)sender {
     

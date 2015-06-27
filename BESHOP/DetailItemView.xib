@@ -10,11 +10,11 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Dqq-U2-4bd">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="K0000151481_0002.jpg" id="Dqq-U2-4bd">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="211"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="SbT-rd-bxp">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11145066_830295770382605_8492820296412019713_n.jpg" id="SbT-rd-bxp">
                     <rect key="frame" x="293" y="179" width="58" height="58"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -75,7 +75,7 @@ CO+8jyAxZGF5A
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.31372549019607843" green="0.6705882352941176" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="16"/>
-                    <state key="normal" title="☆かりる☆">
+                    <state key="normal" title="かりる">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -86,7 +86,6 @@ CO+8jyAxZGF5A
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Lla-H9-AIg">
                     <rect key="frame" x="0.0" y="344" width="375" height="262"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <mutableString key="text"> シーンモードを使うと、日常的なシーンから特別な瞬間まで、多様な撮影が楽しめます。撮りたいシーンが決まっているときは、シーンモードが便利。モードダイヤルを撮りたいシーンに合わせるだけで、カメラが最適な設定を自動的に選択するので、カンタンにキレイな写真が撮れます。
    内蔵フラッシュの発光までカメラまかせの［オート］、フラッシュを発光させない［ 発光禁止オート］も選択可能。こだわって撮影するなら、P（プログラムオート）、S（シャッター優先オート）、A（絞り優先オート）、M（マニュアル）の4つの撮影モードが最適。絞りとシャッタースピードの組み合わせを自分で選んで撮影できます。
 </mutableString>
@@ -94,7 +93,7 @@ CO+8jyAxZGF5A
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <connections>
                 <outlet property="ItemNameLabel" destination="nAT-t1-8Z8" id="f7P-3L-RNY"/>
@@ -108,6 +107,10 @@ CO+8jyAxZGF5A
             <point key="canvasLocation" x="357.5" y="407.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="11145066_830295770382605_8492820296412019713_n.jpg" width="959" height="960"/>
+        <image name="K0000151481_0002.jpg" width="1280" height="960"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

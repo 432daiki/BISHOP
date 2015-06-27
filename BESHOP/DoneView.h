@@ -12,4 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
 
+- (void)setting;
+@property (weak, nonatomic) IBOutlet UIView *blowoffView;
+@property (weak, nonatomic) IBOutlet UIImageView *triangleImageView;
+
 @end

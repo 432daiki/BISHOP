@@ -30,7 +30,7 @@ much!</string>
                     <rect key="frame" x="164" y="220" width="46" height="46"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="N90-Lh-Jsk">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11145066_830295770382605_8492820296412019713_n.jpg" id="N90-Lh-Jsk">
                     <rect key="frame" x="136" y="285" width="102" height="102"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -74,12 +74,15 @@ much!</string>
             <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <connections>
+                <outlet property="blowoffView" destination="0ql-8l-WU0" id="JRV-o2-WUw"/>
                 <outlet property="profileImageView" destination="N90-Lh-Jsk" id="PmS-zQ-bJF"/>
+                <outlet property="triangleImageView" destination="42o-wt-5ET" id="7br-kz-xEZ"/>
             </connections>
             <point key="canvasLocation" x="371.5" y="363.5"/>
         </view>
     </objects>
     <resources>
+        <image name="11145066_830295770382605_8492820296412019713_n.jpg" width="959" height="960"/>
         <image name="Triangle1.png" width="136" height="136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
