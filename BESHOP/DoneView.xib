@@ -33,11 +33,11 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Triangle1.png" id="42o-wt-5ET">
-                    <rect key="frame" x="164" y="220" width="46" height="46"/>
+                    <rect key="frame" x="164" y="220" width="46" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11145066_830295770382605_8492820296412019713_n.jpg" id="N90-Lh-Jsk">
-                    <rect key="frame" x="136" y="285" width="102" height="102"/>
+                    <rect key="frame" x="136" y="283" width="102" height="102"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="d56-79-mlw">
@@ -54,7 +54,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jufuku Marika" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TiX-om-nVm">
-                    <rect key="frame" x="94" y="406" width="186" height="60"/>
+                    <rect key="frame" x="94" y="403" width="186" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="Cabin-Italic" family="Cabin" pointSize="22"/>
                     <color key="textColor" red="0.31456814383119536" green="0.36240640169430599" blue="0.43336022418478259" alpha="1" colorSpace="calibratedRGB"/>
