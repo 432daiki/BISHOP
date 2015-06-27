@@ -16,6 +16,9 @@
 		5613399C1B3E666100EBCB4F /* BESHOPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5613399B1B3E666100EBCB4F /* BESHOPTests.m */; };
 		561339A71B3E682500EBCB4F /* LendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339A61B3E682500EBCB4F /* LendViewController.m */; };
 		561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339A91B3E685400EBCB4F /* BorrowViewController.m */; };
+		561339AE1B3E798400EBCB4F /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */; };
+		561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561339AD1B3E798400EBCB4F /* ItemTableViewCell.xib */; };
+		561339B11B3E80E900EBCB4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561339B01B3E80E900EBCB4F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,10 @@
 		561339A61B3E682500EBCB4F /* LendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LendViewController.m; sourceTree = "<group>"; };
 		561339A81B3E685400EBCB4F /* BorrowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorrowViewController.h; sourceTree = "<group>"; };
 		561339A91B3E685400EBCB4F /* BorrowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorrowViewController.m; sourceTree = "<group>"; };
+		561339AB1B3E798400EBCB4F /* ItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableViewCell.h; sourceTree = "<group>"; };
+		561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewCell.m; sourceTree = "<group>"; };
+		561339AD1B3E798400EBCB4F /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		561339B01B3E80E900EBCB4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561339B11B3E80E900EBCB4F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +77,7 @@
 		561339731B3E666000EBCB4F = {
 			isa = PBXGroup;
 			children = (
+				561339B01B3E80E900EBCB4F /* QuartzCore.framework */,
 				5613397E1B3E666000EBCB4F /* BESHOP */,
 				561339981B3E666100EBCB4F /* BESHOPTests */,
 				5613397D1B3E666000EBCB4F /* Products */,
@@ -96,6 +105,9 @@
 				561339A61B3E682500EBCB4F /* LendViewController.m */,
 				561339A81B3E685400EBCB4F /* BorrowViewController.h */,
 				561339A91B3E685400EBCB4F /* BorrowViewController.m */,
+				561339AB1B3E798400EBCB4F /* ItemTableViewCell.h */,
+				561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */,
+				561339AD1B3E798400EBCB4F /* ItemTableViewCell.xib */,
 				5613398C1B3E666000EBCB4F /* Images.xcassets */,
 				5613398E1B3E666000EBCB4F /* LaunchScreen.xib */,
 				5613397F1B3E666000EBCB4F /* Supporting Files */,
@@ -209,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */,
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
 				561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
@@ -229,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561339AE1B3E798400EBCB4F /* ItemTableViewCell.m in Sources */,
 				561339881B3E666000EBCB4F /* ViewController.m in Sources */,
 				561339A71B3E682500EBCB4F /* LendViewController.m in Sources */,
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,

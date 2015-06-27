@@ -10,6 +10,4 @@
 
 @interface BorrowViewController : UIViewController
 
-- (void)returnToMainView;
-
 @end
