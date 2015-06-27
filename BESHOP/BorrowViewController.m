@@ -16,6 +16,8 @@
 @property DrawerView *drawerView;
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
+@property NSString *animationDirection;
+
 @end
 
 @implementation BorrowViewController
@@ -27,6 +29,12 @@
     [self.tableView registerNib:nibForCell forCellReuseIdentifier:@"Cell"];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
+    UINib *nib = [UINib nibWithNibName:@"DrawerView" bundle:nil];
+    self.drawerView = [[nib instantiateWithOwner:nil options:nil]objectAtIndex:0];
+    self.drawerView.frame = CGRectMake(-298, 0, 298, 667);
+    [self.view addSubview:self.drawerView];
+    
+    self.animationDirection = @"LEFT";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -74,18 +82,21 @@
 
 - (IBAction)pushLeftBarButton:(id)sender {
     
-    UINib *nib = [UINib nibWithNibName:@"DrawerView" bundle:nil];
-    self.drawerView = [[nib instantiateWithOwner:nil options:nil]objectAtIndex:0];
-    self.drawerView.frame = CGRectMake(-160, 0, 160, 667);
-    [self.view addSubview:self.drawerView];
+    
     
     [UIView animateWithDuration:0.6 delay:0 usingSpringWithDamping:1 initialSpringVelocity:0.6 options:UIViewAnimationOptionCurveLinear animations:^{
         
-        self.navigationBar.frame = CGRectMake(160, 20, 375, 44);
+        if ([self.animationDirection isEqualToString:@"LEFT"]) {
+            
+            self.drawerView.frame = CGRectMake(0, 0, 298, 667);
+        }
         
-        self.tableView.frame = CGRectMake(160, 64, 378, 608);
+        else if ([self.animationDirection isEqualToString:@"RIGHT"]){
+            
+            self.drawerView.frame = CGRectMake(-298, 0, 298, 667);
+        }
         
-        self.drawerView.frame = CGRectMake(0, 0, 160, 667);
+        
         
     }completion:nil];
     
