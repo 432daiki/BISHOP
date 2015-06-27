@@ -8,8 +8,10 @@
 
 #import "BorrowViewController.h"
 #import "ItemTableViewCell.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface BorrowViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -17,7 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    UINib *nibForCell = [UINib nibWithNibName:@"ItemTableViewCell" bundle:nil];
+    [self.tableView registerNib:nibForCell forCellReuseIdentifier:@"Cell"];
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,6 +41,19 @@
     if (cell == nil) {
         cell = [[ItemTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     }
+    
+    cell.backgroundColor = [UIColor clearColor];
+    
+    
+    cell.userImageView.layer.cornerRadius = 13.5;
+    cell.userImageView.clipsToBounds = YES;
+    
+    //影
+    cell.itemImageView.layer.masksToBounds = NO;
+    cell.itemImageView.layer.cornerRadius = 8;
+    cell.itemImageView.layer.shadowOffset = CGSizeMake(0, 0);
+    cell.itemImageView.layer.shadowRadius = 3;
+    cell.itemImageView.layer.shadowOpacity = 0.1;
     
     return cell;
 }

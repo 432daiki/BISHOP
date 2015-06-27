@@ -55,27 +55,6 @@
     return YES;
 }
 
-- (IBAction)inputMailAdress:(id)sender {
-    
-    UITextField *textField = (UITextField*)sender;
-    NSString *mailAdress = textField.text;
-    NSLog(@"%@",mailAdress);
-    
-}
-
-- (IBAction)pushResistButton:(id)sender {
-}
-
-- (IBAction)inputUserName:(id)sender {
-    
-    UITextField *textField = (UITextField*)sender;
-    NSString *userName = textField.text;
-}
-- (IBAction)inputPassword:(id)sender {
-    
-    UITextField *textField = (UITextField*)sender;
-    NSString *password = textField.text;
-}
 
 
 @end

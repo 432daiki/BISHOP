@@ -19,6 +19,8 @@
 		561339AE1B3E798400EBCB4F /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */; };
 		561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561339AD1B3E798400EBCB4F /* ItemTableViewCell.xib */; };
 		561339B11B3E80E900EBCB4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561339B01B3E80E900EBCB4F /* QuartzCore.framework */; };
+		561339B31B3E836A00EBCB4F /* K0000151481_0002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 561339B21B3E836A00EBCB4F /* K0000151481_0002.jpg */; };
+		561339B51B3E83A800EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 561339B41B3E83A800EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		561339AC1B3E798400EBCB4F /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewCell.m; sourceTree = "<group>"; };
 		561339AD1B3E798400EBCB4F /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 		561339B01B3E80E900EBCB4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		561339B21B3E836A00EBCB4F /* K0000151481_0002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = K0000151481_0002.jpg; path = ../../../Downloads/K0000151481_0002.jpg; sourceTree = "<group>"; };
+		561339B41B3E83A800EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11145066_830295770382605_8492820296412019713_n.jpg; path = ../../../Downloads/11145066_830295770382605_8492820296412019713_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				5613397E1B3E666000EBCB4F /* BESHOP */,
 				561339981B3E666100EBCB4F /* BESHOPTests */,
 				5613397D1B3E666000EBCB4F /* Products */,
+				561339B41B3E83A800EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */,
+				561339B21B3E836A00EBCB4F /* K0000151481_0002.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				561339B31B3E836A00EBCB4F /* K0000151481_0002.jpg in Resources */,
+				561339B51B3E83A800EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */,
 				561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */,
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
 				561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */,

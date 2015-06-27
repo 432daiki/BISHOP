@@ -13,10 +13,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VEi-PQ-GlD">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="K0000151481_0002.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VEi-PQ-GlD">
                         <rect key="frame" x="11" y="11" width="352" height="198"/>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0tg-2d-03k">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11145066_830295770382605_8492820296412019713_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0tg-2d-03k">
                         <rect key="frame" x="11" y="220" width="27" height="27"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQD-fJ-G80">
@@ -35,4 +35,8 @@
             <point key="canvasLocation" x="467.5" y="454"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="11145066_830295770382605_8492820296412019713_n.jpg" width="959" height="960"/>
+        <image name="K0000151481_0002.jpg" width="1280" height="960"/>
+    </resources>
 </document>
