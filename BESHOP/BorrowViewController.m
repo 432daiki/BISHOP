@@ -10,13 +10,14 @@
 #import "ItemTableViewCell.h"
 #import <QuartzCore/QuartzCore.h>
 #import "DrawerView.h"
+#import "AppDelegate.h"
 
 @interface BorrowViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property DrawerView *drawerView;
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
-@property NSString *animationDirection;
+@property AppDelegate *ad;
 
 @end
 
@@ -29,12 +30,16 @@
     [self.tableView registerNib:nibForCell forCellReuseIdentifier:@"Cell"];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
+    self.drawerView = [[DrawerView alloc] init];
     UINib *nib = [UINib nibWithNibName:@"DrawerView" bundle:nil];
     self.drawerView = [[nib instantiateWithOwner:nil options:nil]objectAtIndex:0];
-    self.drawerView.frame = CGRectMake(-298, 0, 298, 667);
+    self.drawerView.frame = CGRectMake(-375, 0, 375, 667);
     [self.view addSubview:self.drawerView];
+    [self.drawerView setting];
     
-    self.animationDirection = @"LEFT";
+    self.ad = [[UIApplication sharedApplication] delegate];
+    self.ad.animationDirection = @"LEFT";
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -82,23 +87,27 @@
 
 - (IBAction)pushLeftBarButton:(id)sender {
     
-    
-    
     [UIView animateWithDuration:0.6 delay:0 usingSpringWithDamping:1 initialSpringVelocity:0.6 options:UIViewAnimationOptionCurveLinear animations:^{
         
-        if ([self.animationDirection isEqualToString:@"LEFT"]) {
+        if ([self.ad.animationDirection isEqualToString:@"LEFT"]) {
             
-            self.drawerView.frame = CGRectMake(0, 0, 298, 667);
+            self.drawerView.frame = CGRectMake(0, 0, 375, 667);
+            self.ad.animationDirection = @"RIGHT";
         }
         
-        else if ([self.animationDirection isEqualToString:@"RIGHT"]){
+        else if ([self.ad.animationDirection isEqualToString:@"RIGHT"]){
             
-            self.drawerView.frame = CGRectMake(-298, 0, 298, 667);
+            self.drawerView.frame = CGRectMake(-375, 0, 375, 667);
+            self.ad.animationDirection = @"LEFT";
         }
         
+    }completion:^(BOOL finished){
         
-        
-    }completion:nil];
+        if ([self.ad.animationDirection isEqualToString:@"RIGHT"]) {
+            
+            [self.drawerView showShadow];
+        }
+    }];
     
 }
 

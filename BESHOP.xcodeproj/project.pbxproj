@@ -28,6 +28,10 @@
 		561339DC1B3EB20A00EBCB4F /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339DB1B3EB20A00EBCB4F /* SideViewController.m */; };
 		561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339FE1B3EBB2700EBCB4F /* DrawerView.m */; };
 		56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56133A001B3EBB3E00EBCB4F /* DrawerView.xib */; };
+		56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A041B3EC7D500EBCB4F /* Bitmap1.png */; };
+		56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A0C1B3ECC3000EBCB4F /* Sales.png */; };
+		56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A0D1B3ECC3000EBCB4F /* Settings.png */; };
+		56133A111B3ECC3800EBCB4F /* Add items.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A101B3ECC3800EBCB4F /* Add items.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,10 @@
 		561339FD1B3EBB2700EBCB4F /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
 		561339FE1B3EBB2700EBCB4F /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
 		56133A001B3EBB3E00EBCB4F /* DrawerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerView.xib; sourceTree = "<group>"; };
+		56133A041B3EC7D500EBCB4F /* Bitmap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap1.png; sourceTree = "<group>"; };
+		56133A0C1B3ECC3000EBCB4F /* Sales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sales.png; sourceTree = "<group>"; };
+		56133A0D1B3ECC3000EBCB4F /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		56133A101B3ECC3800EBCB4F /* Add items.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add items.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,11 +149,11 @@
 				561339D41B3E923500EBCB4F /* DetailItemView.h */,
 				561339D51B3E923500EBCB4F /* DetailItemView.m */,
 				561339D21B3E921500EBCB4F /* DetailItemView.xib */,
-				5613398C1B3E666000EBCB4F /* Images.xcassets */,
 				5613398E1B3E666000EBCB4F /* LaunchScreen.xib */,
 				561339FD1B3EBB2700EBCB4F /* DrawerView.h */,
 				561339FE1B3EBB2700EBCB4F /* DrawerView.m */,
 				56133A001B3EBB3E00EBCB4F /* DrawerView.xib */,
+				5613398C1B3E666000EBCB4F /* Images.xcassets */,
 				5613397F1B3E666000EBCB4F /* Supporting Files */,
 			);
 			path = BESHOP;
@@ -180,8 +188,12 @@
 		561339BB1B3E8AA100EBCB4F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				56133A041B3EC7D500EBCB4F /* Bitmap1.png */,
 				561339BD1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */,
 				561339BF1B3E8AC400EBCB4F /* K0000151481_0002.jpg */,
+				56133A101B3ECC3800EBCB4F /* Add items.png */,
+				56133A0C1B3ECC3000EBCB4F /* Sales.png */,
+				56133A0D1B3ECC3000EBCB4F /* Settings.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -277,9 +289,13 @@
 			files = (
 				561339BE1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */,
 				561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */,
+				56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */,
+				56133A111B3ECC3800EBCB4F /* Add items.png in Resources */,
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
+				56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */,
 				561339C01B3E8AC400EBCB4F /* K0000151481_0002.jpg in Resources */,
 				561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */,
+				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
 				56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */,

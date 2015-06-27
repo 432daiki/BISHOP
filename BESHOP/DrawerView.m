@@ -7,15 +7,48 @@
 //
 
 #import "DrawerView.h"
+#import <QuartzCore/QuartzCore.h>
+#import "AppDelegate.h"
 
 @implementation DrawerView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+
+
+- (void)setting{
+    
+    self.profileImageView.layer.cornerRadius = 30;
+    self.profileImageView.clipsToBounds = YES;
+    
+    UISwipeGestureRecognizer* swipeLeftGesture =
+    [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(pushBlank:)];
+    swipeLeftGesture.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self addGestureRecognizer:swipeLeftGesture];
+
 }
-*/
+
+- (void)showShadow{
+    
+    //影
+    self.backView.layer.masksToBounds = NO;
+    self.backView.layer.cornerRadius = 8;
+    self.backView.layer.shadowOffset = CGSizeMake(78, 0);
+    self.backView.layer.shadowRadius = 3;
+    self.backView.layer.shadowOpacity = 0.6;
+}
+
+- (IBAction)pushBlank:(id)sender {
+    
+    AppDelegate *ad = [[UIApplication sharedApplication] delegate];
+    
+    self.backView.layer.masksToBounds = YES;
+    
+    [UIView animateWithDuration:0.6 delay:0 usingSpringWithDamping:1 initialSpringVelocity:0.6 options:UIViewAnimationOptionCurveLinear animations:^{
+        
+            self.frame = CGRectMake(-375, 0, 375, 667);
+        
+            ad.animationDirection = @"LEFT";
+        
+    }completion:nil];
+}
 
 @end
