@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="1233.5" y="-468.5"/>
         </scene>
-        <!--Tutorial View Controller1 View Controller-->
+        <!--ようこそ-->
         <scene sceneID="WwW-fv-6yB">
             <objects>
-                <viewController storyboardIdentifier="Tutorial1" id="15W-at-Bv9" customClass="TutorialViewController1ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Tutorial1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="15W-at-Bv9" customClass="TutorialViewController1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eb4-6v-q4q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,7 +63,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="IMh-qP-hdk" kind="push" id="fbC-gF-bkk"/>
+                                    <segue destination="IMh-qP-hdk" kind="push" id="GpT-HV-vkc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3cO-c7-VbP">
@@ -85,12 +85,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="TdQ-85-lKR"/>
+                    <navigationItem key="navigationItem" title="ようこそ" id="TdQ-85-lKR"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GTV-4b-jXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2106.5" y="198.5"/>
+            <point key="canvasLocation" x="2756.5" y="222.5"/>
         </scene>
         <!--Select Grenre-->
         <scene sceneID="FtR-df-GrZ">
@@ -131,6 +131,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGJ-zH-HzK" kind="push" id="Wtn-82-qn3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0RX-jT-akM">
                                 <rect key="frame" x="146" y="424" width="83" height="30"/>
@@ -140,6 +143,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGJ-zH-HzK" kind="push" id="mEA-2o-pi7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="29S-5j-O5e">
                                 <rect key="frame" x="146" y="341" width="83" height="30"/>
@@ -149,6 +155,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGJ-zH-HzK" kind="push" id="ba3-aN-NwK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="egw-jV-xV4">
                                 <rect key="frame" x="146" y="263" width="83" height="30"/>
@@ -158,6 +167,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGJ-zH-HzK" kind="push" id="0Hd-dz-Zsr"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -167,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lyh-Mf-fhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2714.5" y="126.5"/>
+            <point key="canvasLocation" x="3246.5" y="126.5"/>
         </scene>
         <!--Edit Info-->
         <scene sceneID="x89-ZD-UcA">
@@ -241,7 +253,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ek0-qE-c98" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3244.5" y="198.5"/>
+            <point key="canvasLocation" x="3776.5" y="198.5"/>
         </scene>
         <!--MyItemList-->
         <scene sceneID="u3K-YY-FfK">
@@ -275,7 +287,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M0m-pO-RHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3827.5" y="198.5"/>
+            <point key="canvasLocation" x="4359.5" y="198.5"/>
         </scene>
         <!--Borrow View Controller-->
         <scene sceneID="FzW-id-Dpd">
@@ -346,13 +358,29 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="15W-at-Bv9" kind="relationship" relationship="rootViewController" id="oTv-eI-gEg"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sYv-QM-Q8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1499.5" y="532.5"/>
+        </scene>
+        <!--Lend Navigation Controller-->
+        <scene sceneID="OEo-mg-RuQ">
+            <objects>
+                <navigationController storyboardIdentifier="Navi" automaticallyAdjustsScrollViewInsets="NO" id="5pp-dy-THj" customClass="LendNavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qYh-jW-UyP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="15W-at-Bv9" kind="relationship" relationship="rootViewController" id="vtL-Jv-9Xy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1kS-HH-6vW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2224" y="222"/>
         </scene>
     </scenes>
     <resources>
@@ -364,4 +392,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="mEA-2o-pi7"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -7,18 +7,19 @@
 //
 
 #import "UserNameAndThumbNailView.h"
-#import "InitializeViewController.h"
 #import "TutorialViewController1ViewController.h"
+#import "LendNavigationController.h"
 
 @implementation UserNameAndThumbNailView
 
 - (IBAction)pushStartButton:(id)sender {
     
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    TutorialViewController1ViewController *tcv = [storyBoard instantiateViewControllerWithIdentifier:@"Tutorial1"];
-
+    
+    LendNavigationController *lnc = [storyBoard instantiateViewControllerWithIdentifier:@"Navi"];
+    
     self.window.rootViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-    [self.window.rootViewController presentViewController:tcv animated:NO completion:nil];
+    [self.window.rootViewController presentViewController:lnc animated:NO completion:nil];
 }
 
 @end
