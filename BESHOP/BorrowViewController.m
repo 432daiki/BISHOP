@@ -9,9 +9,12 @@
 #import "BorrowViewController.h"
 #import "ItemTableViewCell.h"
 #import <QuartzCore/QuartzCore.h>
+#import "DrawerView.h"
 
 @interface BorrowViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property DrawerView *drawerView;
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
 @end
 
@@ -23,6 +26,7 @@
     UINib *nibForCell = [UINib nibWithNibName:@"ItemTableViewCell" bundle:nil];
     [self.tableView registerNib:nibForCell forCellReuseIdentifier:@"Cell"];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -64,6 +68,27 @@
         
         
     }
+}
+
+
+
+- (IBAction)pushLeftBarButton:(id)sender {
+    
+    UINib *nib = [UINib nibWithNibName:@"DrawerView" bundle:nil];
+    self.drawerView = [[nib instantiateWithOwner:nil options:nil]objectAtIndex:0];
+    self.drawerView.frame = CGRectMake(-160, 0, 160, 667);
+    [self.view addSubview:self.drawerView];
+    
+    [UIView animateWithDuration:0.6 delay:0 usingSpringWithDamping:1 initialSpringVelocity:0.6 options:UIViewAnimationOptionCurveLinear animations:^{
+        
+        self.navigationBar.frame = CGRectMake(160, 20, 375, 44);
+        
+        self.tableView.frame = CGRectMake(160, 64, 378, 608);
+        
+        self.drawerView.frame = CGRectMake(0, 0, 160, 667);
+        
+    }completion:nil];
+    
 }
 
 

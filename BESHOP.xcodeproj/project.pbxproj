@@ -22,13 +22,12 @@
 		561339B81B3E89D500EBCB4F /* ItemImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339B71B3E89D500EBCB4F /* ItemImageView.m */; };
 		561339BE1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 561339BD1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */; };
 		561339C01B3E8AC400EBCB4F /* K0000151481_0002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 561339BF1B3E8AC400EBCB4F /* K0000151481_0002.jpg */; };
-		561339CB1B3E8B9C00EBCB4F /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339C31B3E8B9C00EBCB4F /* MMDrawerBarButtonItem.m */; };
-		561339CC1B3E8B9C00EBCB4F /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339C61B3E8B9C00EBCB4F /* MMDrawerController.m */; };
-		561339CD1B3E8B9C00EBCB4F /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339C81B3E8B9C00EBCB4F /* MMDrawerVisualState.m */; };
-		561339CE1B3E8B9C00EBCB4F /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339CA1B3E8B9C00EBCB4F /* UIViewController+MMDrawerController.m */; };
 		561339D11B3E8E1C00EBCB4F /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339D01B3E8E1C00EBCB4F /* DrawerViewController.m */; };
 		561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561339D21B3E921500EBCB4F /* DetailItemView.xib */; };
 		561339D61B3E923500EBCB4F /* DetailItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339D51B3E923500EBCB4F /* DetailItemView.m */; };
+		561339DC1B3EB20A00EBCB4F /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339DB1B3EB20A00EBCB4F /* SideViewController.m */; };
+		561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561339FE1B3EBB2700EBCB4F /* DrawerView.m */; };
+		56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56133A001B3EBB3E00EBCB4F /* DrawerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,20 +66,16 @@
 		561339B71B3E89D500EBCB4F /* ItemImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemImageView.m; sourceTree = "<group>"; };
 		561339BD1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11145066_830295770382605_8492820296412019713_n.jpg; sourceTree = "<group>"; };
 		561339BF1B3E8AC400EBCB4F /* K0000151481_0002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = K0000151481_0002.jpg; sourceTree = "<group>"; };
-		561339C21B3E8B9C00EBCB4F /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
-		561339C31B3E8B9C00EBCB4F /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
-		561339C41B3E8B9C00EBCB4F /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
-		561339C51B3E8B9C00EBCB4F /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
-		561339C61B3E8B9C00EBCB4F /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
-		561339C71B3E8B9C00EBCB4F /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
-		561339C81B3E8B9C00EBCB4F /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
-		561339C91B3E8B9C00EBCB4F /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
-		561339CA1B3E8B9C00EBCB4F /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		561339CF1B3E8E1C00EBCB4F /* DrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
 		561339D01B3E8E1C00EBCB4F /* DrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
 		561339D21B3E921500EBCB4F /* DetailItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailItemView.xib; sourceTree = "<group>"; };
 		561339D41B3E923500EBCB4F /* DetailItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailItemView.h; sourceTree = "<group>"; };
 		561339D51B3E923500EBCB4F /* DetailItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailItemView.m; sourceTree = "<group>"; };
+		561339DA1B3EB20A00EBCB4F /* SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideViewController.h; sourceTree = "<group>"; };
+		561339DB1B3EB20A00EBCB4F /* SideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideViewController.m; sourceTree = "<group>"; };
+		561339FD1B3EBB2700EBCB4F /* DrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerView.h; sourceTree = "<group>"; };
+		561339FE1B3EBB2700EBCB4F /* DrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerView.m; sourceTree = "<group>"; };
+		56133A001B3EBB3E00EBCB4F /* DrawerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,12 +120,13 @@
 		5613397E1B3E666000EBCB4F /* BESHOP */ = {
 			isa = PBXGroup;
 			children = (
-				561339C11B3E8B9C00EBCB4F /* MMDrawerController */,
 				561339831B3E666000EBCB4F /* AppDelegate.h */,
 				561339841B3E666000EBCB4F /* AppDelegate.m */,
 				561339861B3E666000EBCB4F /* ViewController.h */,
 				561339871B3E666000EBCB4F /* ViewController.m */,
 				561339891B3E666000EBCB4F /* Main.storyboard */,
+				561339DA1B3EB20A00EBCB4F /* SideViewController.h */,
+				561339DB1B3EB20A00EBCB4F /* SideViewController.m */,
 				561339A51B3E682500EBCB4F /* LendViewController.h */,
 				561339A61B3E682500EBCB4F /* LendViewController.m */,
 				561339A81B3E685400EBCB4F /* BorrowViewController.h */,
@@ -147,6 +143,9 @@
 				561339D21B3E921500EBCB4F /* DetailItemView.xib */,
 				5613398C1B3E666000EBCB4F /* Images.xcassets */,
 				5613398E1B3E666000EBCB4F /* LaunchScreen.xib */,
+				561339FD1B3EBB2700EBCB4F /* DrawerView.h */,
+				561339FE1B3EBB2700EBCB4F /* DrawerView.m */,
+				56133A001B3EBB3E00EBCB4F /* DrawerView.xib */,
 				5613397F1B3E666000EBCB4F /* Supporting Files */,
 			);
 			path = BESHOP;
@@ -194,22 +193,6 @@
 			);
 			name = Resources;
 			path = BESHOP.xcodeproj;
-			sourceTree = "<group>";
-		};
-		561339C11B3E8B9C00EBCB4F /* MMDrawerController */ = {
-			isa = PBXGroup;
-			children = (
-				561339C21B3E8B9C00EBCB4F /* MMDrawerBarButtonItem.h */,
-				561339C31B3E8B9C00EBCB4F /* MMDrawerBarButtonItem.m */,
-				561339C41B3E8B9C00EBCB4F /* MMDrawerController+Subclass.h */,
-				561339C51B3E8B9C00EBCB4F /* MMDrawerController.h */,
-				561339C61B3E8B9C00EBCB4F /* MMDrawerController.m */,
-				561339C71B3E8B9C00EBCB4F /* MMDrawerVisualState.h */,
-				561339C81B3E8B9C00EBCB4F /* MMDrawerVisualState.m */,
-				561339C91B3E8B9C00EBCB4F /* UIViewController+MMDrawerController.h */,
-				561339CA1B3E8B9C00EBCB4F /* UIViewController+MMDrawerController.m */,
-			);
-			path = MMDrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +282,7 @@
 				561339901B3E666000EBCB4F /* LaunchScreen.xib in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
+				56133A011B3EBB3E00EBCB4F /* DrawerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,17 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561339CE1B3E8B9C00EBCB4F /* UIViewController+MMDrawerController.m in Sources */,
-				561339CD1B3E8B9C00EBCB4F /* MMDrawerVisualState.m in Sources */,
 				561339AE1B3E798400EBCB4F /* ItemTableViewCell.m in Sources */,
-				561339CB1B3E8B9C00EBCB4F /* MMDrawerBarButtonItem.m in Sources */,
 				561339881B3E666000EBCB4F /* ViewController.m in Sources */,
+				561339DC1B3EB20A00EBCB4F /* SideViewController.m in Sources */,
 				561339A71B3E682500EBCB4F /* LendViewController.m in Sources */,
+				561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */,
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
 				561339851B3E666000EBCB4F /* AppDelegate.m in Sources */,
 				561339B81B3E89D500EBCB4F /* ItemImageView.m in Sources */,
 				561339D11B3E8E1C00EBCB4F /* DrawerViewController.m in Sources */,
-				561339CC1B3E8B9C00EBCB4F /* MMDrawerController.m in Sources */,
 				561339821B3E666000EBCB4F /* main.m in Sources */,
 				561339D61B3E923500EBCB4F /* DetailItemView.m in Sources */,
 			);

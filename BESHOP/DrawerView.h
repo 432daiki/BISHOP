@@ -1,5 +1,5 @@
 //
-//  BorrowViewController.h
+//  DrawerView.h
 //  BESHOP
 //
 //  Created by 清水 大輝 on 2015/06/27.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BorrowViewController : UIViewController
-
+@interface DrawerView : UIView
 
 @end
