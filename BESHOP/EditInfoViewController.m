@@ -1,19 +1,18 @@
 //
-//  SideViewController.m
+//  EditInfoViewController.m
 //  BESHOP
 //
-//  Created by 清水 大輝 on 2015/06/27.
+//  Created by Yuki Uchiyama on 2015/06/28.
 //  Copyright (c) 2015年 Daiki Shimizu. All rights reserved.
 //
 
-#import "SideViewController.h"
-#import "LendViewController.h"
+#import "EditInfoViewController.h"
 
-@interface SideViewController ()
+@interface EditInfoViewController ()
 
 @end
 
-@implementation SideViewController
+@implementation EditInfoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,6 +33,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
 
 @end
