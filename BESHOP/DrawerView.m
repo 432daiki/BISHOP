@@ -23,6 +23,8 @@
     [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(pushBlank:)];
     swipeLeftGesture.direction = UISwipeGestureRecognizerDirectionLeft;
     [self addGestureRecognizer:swipeLeftGesture];
+    
+    
 
 }
 
@@ -50,5 +52,11 @@
         
     }completion:nil];
 }
+
+- (IBAction)pushSwitchButton:(id)sender {
+    
+    
+}
+
 
 @end
