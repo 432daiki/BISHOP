@@ -10,11 +10,13 @@
 #import "ItemTableViewCell.h"
 #import <QuartzCore/QuartzCore.h>
 #import "DrawerView.h"
+#import "DetailItemView.h"
 #import "AppDelegate.h"
 
 @interface BorrowViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property DrawerView *drawerView;
+@property DetailItemView *detailItemView;
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
 @property AppDelegate *ad;
@@ -64,6 +66,7 @@
     
     cell.userImageView.layer.cornerRadius = 13.5;
     cell.userImageView.clipsToBounds = YES;
+    cell.tag = indexPath.row+1;
     
     //影
     cell.itemImageView.layer.masksToBounds = NO;
@@ -83,7 +86,19 @@
     }
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+//    UITableViewCell *subCell = [tableView cellForRowAtIndexPath:indexPath];
+//    ItemTableViewCell *cell = (ItemTableViewCell*)subCell;
+    
+    UINib *nib = [UINib nibWithNibName:@"DetailItemView" bundle:nil];
+    self.detailItemView = [[nib instantiateWithOwner:nil options:nil]objectAtIndex:0];
+    self.detailItemView.frame = CGRectMake(0, 667, 375, 667);
+    [self.view addSubview:self.detailItemView];
+    
+    
 
+}
 
 - (IBAction)pushLeftBarButton:(id)sender {
     
