@@ -42,9 +42,6 @@
                     <state key="normal" title="Button" image="start_button.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <connections>
-                        <action selector="pushStartButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="ud5-B7-40Y"/>
-                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

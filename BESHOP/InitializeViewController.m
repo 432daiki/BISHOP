@@ -12,7 +12,6 @@
 #import "OpeningView3.h"
 #import "MailAndPassView.h"
 #import "UserNameAndThumbNailView.h"
-#import "LendNavigationController.h"
 
 @interface InitializeViewController ()
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
@@ -46,7 +45,6 @@
     self.scrollView.contentSize  = CGSizeMake(screenWidth*5, 667);
     
     NSArray *OpeningViewNames = [NSArray arrayWithObjects:@"OpeningView1", @"OpeningView2", @"OpeningView3", @"MailAndPassView", @"UserNameAndThumbNailView", nil];
-    
     
     for (NSInteger i=0; i < [OpeningViewNames count]; i++) {
         UINib *nib = [UINib nibWithNibName:OpeningViewNames[i] bundle:nil];
@@ -101,8 +99,6 @@
     }
     return YES;
 }
-
-
 
 /*
 #pragma mark - Navigation

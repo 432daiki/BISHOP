@@ -10,5 +10,4 @@
 
 @interface UserNameAndThumbNailView : UIView
 
-
 @end

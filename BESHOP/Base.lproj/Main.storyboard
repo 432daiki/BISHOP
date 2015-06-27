@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2eu-Gt-dTO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="C7w-EQ-UbG">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--Initialize View Controller-->
         <scene sceneID="R0U-9J-Lib">
             <objects>
-                <viewController storyboardIdentifier="InitializeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2eu-Gt-dTO" customClass="InitializeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InitializeViewController" id="2eu-Gt-dTO" customClass="InitializeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qIs-dB-l11">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,17 +33,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3V-Kp-m5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1233.5" y="-468.5"/>
+            <point key="canvasLocation" x="1315.5" y="-453.5"/>
         </scene>
+<<<<<<< HEAD
         <!--ようこそ-->
         <scene sceneID="WwW-fv-6yB">
             <objects>
                 <viewController storyboardIdentifier="Tutorial1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="15W-at-Bv9" customClass="TutorialViewController1ViewController" sceneMemberID="viewController">
+=======
+        <!--Lend View Controller-->
+        <scene sceneID="WwW-fv-6yB">
+            <objects>
+                <viewController id="15W-at-Bv9" customClass="LendViewController" sceneMemberID="viewController">
+>>>>>>> 940706aab775527e8ee2313b2e4717e709b7f1ec
                     <view key="view" contentMode="scaleToFill" id="Eb4-6v-q4q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_items_bg.jpg" id="9WI-Tc-1fW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add_items_bg.png" id="9WI-Tc-1fW">
                                 <rect key="frame" x="-6" y="0.0" width="381" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -54,9 +61,10 @@
                                     <navigationItem title="Add Items" id="uEh-LW-d0k"/>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Edz-cc-uEl">
-                                <rect key="frame" x="110" y="516" width="148" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="家に眠っている素敵なアイテムはありませんか？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sE8-n6-dOJ">
+                                <rect key="frame" x="29" y="216" width="337" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<<<<<<< HEAD
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="預けてみる">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -72,14 +80,25 @@
                                 <string key="text">BESHOPに預けて
 もう一度活躍させてあげましょう</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
+=======
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="14"/>
+>>>>>>> 940706aab775527e8ee2313b2e4717e709b7f1ec
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="家に眠っている素敵なアイテムはありませんか？" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sE8-n6-dOJ">
-                                <rect key="frame" x="38" y="216" width="337" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lend_text.png" id="vjk-Nu-oIH">
+                                <rect key="frame" x="64" y="304" width="240" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lend.png" id="F1l-D8-Q7w">
+                                <rect key="frame" x="67" y="521" width="240" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BeShopで最高貸し借りライフ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X9Y-sY-hYN">
+                                <rect key="frame" x="78" y="584" width="212" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -105,9 +124,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="預けるアイテムはどんなものですか？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qd3-Zr-4bM">
-                                <rect key="frame" x="69" y="124" width="237" height="21"/>
+                                <rect key="frame" x="69" y="120" width="237" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="13"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -115,7 +134,7 @@
                                 <rect key="frame" x="146" y="196" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
-                                <state key="normal" title="ジャンル">
+                                <state key="normal" title="Sports">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -151,7 +170,7 @@
                                 <rect key="frame" x="146" y="341" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
-                                <state key="normal" title="ジャンル">
+                                <state key="normal" title="Outdoor">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -163,7 +182,36 @@
                                 <rect key="frame" x="146" y="263" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
-                                <state key="normal" title="ジャンル">
+                                <state key="normal" title="Game">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_sports.png" id="qCc-oY-wzs">
+                                <rect key="frame" x="81" y="201" width="23" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02_ches.png" id="Lge-R9-xjH">
+                                <rect key="frame" x="81" y="262" width="22" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="03_tents.png" id="kgZ-iQ-Wty">
+                                <rect key="frame" x="74" y="344" width="41" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04_indoor.png" id="9jX-7J-nc4">
+                                <rect key="frame" x="84" y="424" width="21" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="05_music.png" id="xso-Kx-aVs">
+                                <rect key="frame" x="74" y="508" width="46" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dis-UP-Buv">
+                                <rect key="frame" x="146" y="501" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="15"/>
+                                <state key="normal" title="Music">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -258,7 +306,7 @@
         <!--MyItemList-->
         <scene sceneID="u3K-YY-FfK">
             <objects>
-                <viewController storyboardIdentifier="Lend" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HA1-gZ-cWZ" customClass="LendViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Lend" id="HA1-gZ-cWZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WJS-RP-eZm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -292,7 +340,7 @@
         <!--Borrow View Controller-->
         <scene sceneID="FzW-id-Dpd">
             <objects>
-                <viewController storyboardIdentifier="Borrow" useStoryboardIdentifierAsRestorationIdentifier="YES" id="C7w-EQ-UbG" customClass="BorrowViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Borrow" id="C7w-EQ-UbG" customClass="BorrowViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w7V-ek-RDX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -350,7 +398,7 @@
         <!--Lend Navigation Controller-->
         <scene sceneID="J1X-EK-wzf">
             <objects>
-                <navigationController storyboardIdentifier="LendNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="37y-Vw-Dzy" customClass="LendNavigationController" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LendNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="37y-Vw-Dzy" customClass="LendNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hm9-Tn-z51">
@@ -384,7 +432,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="add_items_bg.jpg" width="719" height="1280"/>
+        <image name="01_sports.png" width="48" height="48"/>
+        <image name="02_ches.png" width="40" height="51"/>
+        <image name="03_tents.png" width="59" height="38"/>
+        <image name="04_indoor.png" width="40" height="61"/>
+        <image name="05_music.png" width="67" height="22"/>
+        <image name="add_items_bg.png" width="750" height="1334"/>
+        <image name="lend.png" width="573" height="92"/>
+        <image name="lend_text.png" width="392" height="204"/>
         <image name="syupin.jpg" width="719" height="1280"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

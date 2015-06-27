@@ -7,8 +7,8 @@
 //
 
 #import "UserNameAndThumbNailView.h"
-#import "TutorialViewController1ViewController.h"
 #import "LendNavigationController.h"
+#import "tuto"
 
 @implementation UserNameAndThumbNailView
 
@@ -20,6 +20,15 @@
     
     self.window.rootViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [self.window.rootViewController presentViewController:lnc animated:NO completion:nil];
+
 }
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code
+>>>>>>> 940706aab775527e8ee2313b2e4717e709b7f1ec
+}
+*/
 
 @end
