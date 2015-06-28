@@ -7,15 +7,18 @@
 //
 
 #import "UserNameAndThumbNailView.h"
+#import "LendNavigationController.h"
 
 @implementation UserNameAndThumbNailView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (IBAction)pushStartButton:(id)sender {
+    
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    LendNavigationController *lnc = [storyBoard instantiateViewControllerWithIdentifier:@"Navi"];
+    [self.window.rootViewController presentViewController:lnc animated:NO completion:nil];
+    
 }
-*/
+
 
 @end

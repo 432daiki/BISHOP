@@ -66,42 +66,6 @@
     }completion:nil];
 }
 
-- (IBAction)pushSwitchButton:(id)sender {
-    
-    [self pushBlank:nil];
-    
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
-//    //借りるに遷移
-//    if ([self.ad.switchFlag isEqualToString:@"LEND"]) {
-//        
-//        /*
-//        LendViewController *lvc = [[LendViewController alloc] init];
-//        lvc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-//        
-//       BorrowViewController *bvc = [storyBoard instantiateViewControllerWithIdentifier:@"Borrow"];
-//        [lvc presentViewController:bvc animated:YES completion:nil];*/
-//        
-//        LendViewController *lvc = [[LendViewController alloc] init];
-//        [lvc flip];
-//    }
-//    
-//    //貸すに遷移
-//    else if ([self.ad.switchFlag isEqualToString:@"BORROW"]){
-//        
-//        /*
-//        BorrowViewController *bvc = [[BorrowViewController alloc] init];
-//        bvc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-//        
-//        LendViewController *lvc = [storyBoard instantiateViewControllerWithIdentifier:@"Lend"];
-//        [bvc presentViewController:lvc animated:YES completion:nil];*/
-//        
-//        BorrowViewController *bvc = [[BorrowViewController alloc] init];
-//        
-//        [bvc flip];
-//    }
-
-}
 
 
 @end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="C7w-EQ-UbG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2eu-Gt-dTO">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -65,10 +65,6 @@
                                 <rect key="frame" x="64" y="304" width="240" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lend.png" id="F1l-D8-Q7w">
-                                <rect key="frame" x="67" y="521" width="240" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BeShopで最高貸し借りライフ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X9Y-sY-hYN">
                                 <rect key="frame" x="78" y="584" width="212" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -76,6 +72,16 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a6P-83-wyL">
+                                <rect key="frame" x="64" y="522" width="240" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="lend.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IMh-qP-hdk" kind="push" id="0gj-f6-bCJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -125,6 +131,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGJ-zH-HzK" kind="push" id="vVh-XP-QwD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="29S-5j-O5e">
                                 <rect key="frame" x="146" y="341" width="83" height="30"/>
@@ -134,6 +143,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGJ-zH-HzK" kind="push" id="jck-bO-Te3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="egw-jV-xV4">
                                 <rect key="frame" x="146" y="263" width="83" height="30"/>
@@ -143,6 +155,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGJ-zH-HzK" kind="push" id="2DP-28-87h"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01_sports.png" id="qCc-oY-wzs">
                                 <rect key="frame" x="81" y="201" width="23" height="24"/>
@@ -172,6 +187,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="kGJ-zH-HzK" kind="push" id="zbi-aj-jiq"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -181,12 +199,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lyh-Mf-fhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2714.5" y="126.5"/>
+            <point key="canvasLocation" x="2569.5" y="126.5"/>
         </scene>
         <!--Edit Info-->
         <scene sceneID="x89-ZD-UcA">
             <objects>
-                <viewController id="kGJ-zH-HzK" sceneMemberID="viewController">
+                <viewController id="kGJ-zH-HzK" customClass="EditInfoViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qwt-uo-xIe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -211,7 +229,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HA1-gZ-cWZ" kind="push" id="7nL-nz-HfL"/>
+                                    <segue destination="HA1-gZ-cWZ" kind="push" id="lS4-I5-WVn"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="center" minimumFontSize="17" id="u1f-4r-b5q">
@@ -260,7 +278,7 @@
         <!--MyItemList-->
         <scene sceneID="u3K-YY-FfK">
             <objects>
-                <viewController storyboardIdentifier="Lend" id="HA1-gZ-cWZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Lend" id="HA1-gZ-cWZ" customClass="ListViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WJS-RP-eZm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -286,9 +304,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="MyItemList" id="xUa-0p-L3B"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="myItemList" destination="BL1-VY-64i" id="wzY-Ti-3X1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M0m-pO-RHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -311,7 +326,7 @@
                                         <rect key="frame" x="0.0" y="22" width="375" height="260"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zaD-Du-4Vh" id="RH2-wC-2bW">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="259"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="259.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -355,7 +370,7 @@
         <!--Lend Navigation Controller-->
         <scene sceneID="J1X-EK-wzf">
             <objects>
-                <navigationController storyboardIdentifier="LendNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="37y-Vw-Dzy" customClass="LendNavigationController" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Navi" automaticallyAdjustsScrollViewInsets="NO" id="37y-Vw-Dzy" customClass="LendNavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hm9-Tn-z51">
@@ -388,4 +403,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Id9-Kz-iuq"/>
+    </inferredMetricsTieBreakers>
 </document>
