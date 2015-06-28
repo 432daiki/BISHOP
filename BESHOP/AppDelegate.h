@@ -17,5 +17,7 @@
 @property DetailItemView *detailItemView;
 @property NSString *switchFlag;
 
+
+
 @end
 
