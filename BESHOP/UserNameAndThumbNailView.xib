@@ -16,9 +16,6 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shaleotsu_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="MPm-Bs-LuU">
                     <rect key="frame" x="66" y="279" width="242" height="12"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="zxu-3a-yte">
-                    <rect key="frame" x="93" y="122" width="188" height="45"/>
-                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nCL-Gs-DUW">
                     <rect key="frame" x="87" y="250" width="200" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -54,7 +51,6 @@
     <resources>
         <image name="add_picture.png" width="205" height="205"/>
         <image name="golden_gate_bridge.jpg" width="719" height="1280"/>
-        <image name="logo.png" width="377" height="91"/>
         <image name="shaleotsu_line.png" width="484" height="24"/>
         <image name="start_button.png" width="525" height="92"/>
     </resources>

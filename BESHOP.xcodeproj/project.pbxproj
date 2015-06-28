@@ -42,6 +42,7 @@
 		56133A461B3F743B00EBCB4F /* 04_indoor.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A411B3F743B00EBCB4F /* 04_indoor.png */; };
 		56133A471B3F743B00EBCB4F /* 05_music.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A421B3F743B00EBCB4F /* 05_music.png */; };
 		56133A4A1B3F74B900EBCB4F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56133A491B3F74B900EBCB4F /* ListViewController.m */; };
+		811C0FCB1B3F916E00F92CC6 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811C0FCA1B3F916E00F92CC6 /* RegisterViewController.m */; };
 		813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */; };
 		813F5E5D1B3EDF5300051DFB /* MailAndPassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */; };
 		813F5E5F1B3EE17000051DFB /* UserNameAndThumbNailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */; };
@@ -145,6 +146,8 @@
 		56133A421B3F743B00EBCB4F /* 05_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 05_music.png; path = lend/icons/05_music.png; sourceTree = "<group>"; };
 		56133A481B3F74B900EBCB4F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		56133A491B3F74B900EBCB4F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		811C0FC91B3F916E00F92CC6 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		811C0FCA1B3F916E00F92CC6 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add_items_bg.jpg; sourceTree = "<group>"; };
 		813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailAndPassView.xib; sourceTree = "<group>"; };
 		813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNameAndThumbNailView.xib; sourceTree = "<group>"; };
@@ -333,6 +336,8 @@
 				813F5E691B3EEB6600051DFB /* MailAndPassView.h */,
 				813F5E6A1B3EEB6600051DFB /* MailAndPassView.m */,
 				813F5E6C1B3EEBA300051DFB /* UserNameAndThumbNailView.h */,
+				811C0FC91B3F916E00F92CC6 /* RegisterViewController.h */,
+				811C0FCA1B3F916E00F92CC6 /* RegisterViewController.m */,
 				813F5E6D1B3EEBA300051DFB /* UserNameAndThumbNailView.m */,
 				813F5E6F1B3EEBB600051DFB /* OpeningView1.h */,
 				813F5E701B3EEBB600051DFB /* OpeningView1.m */,
@@ -589,6 +594,7 @@
 				813F5E741B3EEBE500051DFB /* OpeningView2.m in Sources */,
 				561339FF1B3EBB2700EBCB4F /* DrawerView.m in Sources */,
 				813F5E6E1B3EEBA300051DFB /* UserNameAndThumbNailView.m in Sources */,
+				811C0FCB1B3F916E00F92CC6 /* RegisterViewController.m in Sources */,
 				561339AA1B3E685400EBCB4F /* BorrowViewController.m in Sources */,
 				813F5E951B3F20C500051DFB /* EditInfoViewController.m in Sources */,
 				813F5EA41B3F236A00051DFB /* MyItemTableViewCell.m in Sources */,

@@ -13,9 +13,6 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golden_gate_bridge.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hZD-ZZ-ZUK">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="aoZ-Nu-jsg">
-                    <rect key="frame" x="93" y="122" width="188" height="45"/>
-                </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shaleotsu_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="QQQ-DU-fQl">
                     <rect key="frame" x="66" y="393" width="242" height="12"/>
                 </imageView>
@@ -47,7 +44,6 @@
     </objects>
     <resources>
         <image name="golden_gate_bridge.jpg" width="719" height="1280"/>
-        <image name="logo.png" width="377" height="91"/>
         <image name="shaleotsu_line.png" width="484" height="24"/>
     </resources>
 </document>

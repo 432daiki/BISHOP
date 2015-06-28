@@ -16,12 +16,15 @@
 @interface InitializeViewController ()
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControll;
 
 // User Data
 @property (weak, nonatomic) IBOutlet UITextField *mailAdressTextField;
 @property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property NSMutableDictionary *resistDic;
+
+@property (strong, nonatomic) IBOutlet UIView *backgroundView;
 
 @end
 
@@ -41,10 +44,11 @@
     
     
     // Create Opening Views
+    NSArray *OpeningViewNames = [NSArray arrayWithObjects:@"OpeningView1", @"OpeningView2", @"OpeningView3", nil];
+                                 //@"MailAndPassView", @"UserNameAndThumbNailView", nil];
     int screenWidth = 375;
-    self.scrollView.contentSize  = CGSizeMake(screenWidth*5, 667);
-    
-    NSArray *OpeningViewNames = [NSArray arrayWithObjects:@"OpeningView1", @"OpeningView2", @"OpeningView3", @"MailAndPassView", @"UserNameAndThumbNailView", nil];
+    self.scrollView.contentSize  = CGSizeMake(screenWidth * [OpeningViewNames count], 667);
+
     
     for (NSInteger i=0; i < [OpeningViewNames count]; i++) {
         UINib *nib = [UINib nibWithNibName:OpeningViewNames[i] bundle:nil];
@@ -80,6 +84,8 @@
             [self.scrollView addSubview:ntV];
         }
     }
+    
+    [[UIImage imageNamed:@"Sample001.png"] drawInRect:self.view.bounds];
 }
 
 - (void)didReceiveMemoryWarning {
