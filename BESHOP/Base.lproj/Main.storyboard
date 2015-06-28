@@ -89,6 +89,10 @@
                                     <segue destination="Ydb-Ku-CV8" kind="modal" modalTransitionStyle="crossDissolve" id="m8i-Sx-Tyl"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" id="qiH-HB-EVA">
+                                <rect key="frame" x="93" y="122" width="188" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -145,6 +149,10 @@
                                     <segue destination="37y-Vw-Dzy" kind="modal" modalTransitionStyle="crossDissolve" id="Lef-6Z-2Xg"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" id="dly-gJ-duj">
+                                <rect key="frame" x="93" y="122" width="188" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
