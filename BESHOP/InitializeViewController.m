@@ -14,9 +14,7 @@
 #import "UserNameAndThumbNailView.h"
 
 @interface InitializeViewController ()
-@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
-@property (weak, nonatomic) IBOutlet UIPageControl *pageControll;
 
 // User Data
 @property (weak, nonatomic) IBOutlet UITextField *mailAdressTextField;
@@ -34,22 +32,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
-    //
-    self.mailAdressTextField.delegate = self;
+        self.mailAdressTextField.delegate = self;
     self.userNameTextField.delegate = self;
     self.passwordTextField.delegate = self;
     self.resistDic = [NSMutableDictionary dictionary];
-    
-    
     
     // Create Opening Views
     NSArray *OpeningViewNames = [NSArray arrayWithObjects:@"OpeningView1", @"OpeningView2", @"OpeningView3", nil];
                                  //@"MailAndPassView", @"UserNameAndThumbNailView", nil];
     int screenWidth = 375;
     self.scrollView.contentSize  = CGSizeMake(screenWidth * [OpeningViewNames count], 667);
-
-    
     for (NSInteger i=0; i < [OpeningViewNames count]; i++) {
         UINib *nib = [UINib nibWithNibName:OpeningViewNames[i] bundle:nil];
         
@@ -85,7 +77,18 @@
         }
     }
     
+    scrollView.userInteractionEnabled = YES;
+    scrollView.delegate = self;
+    
     [[UIImage imageNamed:@"Sample001.png"] drawInRect:self.view.bounds];
+}
+
+/**
+ * ページコントロールがタップされたとき
+ */
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    
 }
 
 - (void)didReceiveMemoryWarning {

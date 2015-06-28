@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InitializeViewController : UIViewController
-
+@interface InitializeViewController : UIViewController <UIScrollViewDelegate>{
+    UIScrollView *scrollView;
+}
 @end

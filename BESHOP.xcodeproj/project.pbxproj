@@ -381,6 +381,8 @@
 				813F5E911B3F20A800051DFB /* SelectGenreViewController.m */,
 				813F5E931B3F20C500051DFB /* EditInfoViewController.h */,
 				813F5E941B3F20C500051DFB /* EditInfoViewController.m */,
+				811C0FCC1B3F95F300F92CC6 /* ListViewController.h */,
+				811C0FCD1B3F95F300F92CC6 /* ListViewController.m */,
 				813F5E8D1B3F207300051DFB /* LendNavigationController.h */,
 				813F5E8E1B3F207300051DFB /* LendNavigationController.m */,
 				56133A5F1B3F962200EBCB4F /* ListViewController.h */,
