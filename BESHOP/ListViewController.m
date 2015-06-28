@@ -10,9 +10,16 @@
 #import "MyItemTableViewCell.h"
 #import "EditInfoViewController.h"
 #import "BorrowViewController.h"
+#import "AppDelegate.h"
 
 @interface ListViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *myItemTableView;
+
+
+@property NSArray *itemNameArr;
+@property NSArray *imageArr;
+@property NSArray *priceArr;
+@property NSArray *optionArr;
 
 @end
 
@@ -27,7 +34,24 @@
 
     self.myItemTableView.backgroundColor = [UIColor clearColor];
     
-    // Do any additional setup after loading the view.
+    AppDelegate *ad = [[UIApplication sharedApplication] delegate];
+    NSLog(@"%@",ad.titlestr);
+    
+    
+    //////
+    self.itemNameArr = @[ad.titlestr,@"スキー用具",@"キャンプセット",@"カメラ",@"洋服"];
+    self.priceArr = @[ad.priceStr,@"¥8000",@"¥3000",@"¥12000",@"¥500"];
+    self.optionArr = @[@"借りられた回数:0",@"借りられた回数:3",@"借りられた回数:5",@"借りられた回数:2",@"借りられた回数:2"];
+    
+    
+    UIImage *image1 = ad.firstImage;
+    UIImage *image2 = [UIImage imageNamed:@"a.png"];
+    UIImage *image3 = [UIImage imageNamed:@"gasukatorige.png"];
+    UIImage *image4 = [UIImage imageNamed:@"camera.png"];
+    UIImage *image5 = [UIImage imageNamed:@"k331225787.png"];
+    
+    self.imageArr = @[image1,image2,image3,image4,image5];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,7 +60,9 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 5;
+    
+    
+    return self.itemNameArr.count;
     
 }
 
@@ -49,7 +75,10 @@
     
     cell.backgroundColor = [UIColor clearColor];
     
-    cell.tag = indexPath.row+1;
+    cell.Thumbnail.image = self.imageArr[indexPath.row];
+    cell.ItemPrice.text = self.priceArr[indexPath.row];
+    cell.ItemTitle.text = self.itemNameArr[indexPath.row];
+    cell.BorrowCount.text = self.optionArr[indexPath.row];
     
     //影
     cell.itemContent.layer.masksToBounds = NO;

@@ -20,6 +20,12 @@
 
 @property AppDelegate *ad;
 
+
+
+@property NSArray *nameArr;
+@property NSArray *imageArr;
+@property NSArray *profileArr;
+
 @end
 
 @implementation BorrowViewController
@@ -53,7 +59,25 @@
     NSLog(@"%@",jsonObject);
     
     
-    //アイテム名、画像、
+   
+    
+    self.nameArr = @[@"釣り具",@"カメラ",@"着物",@"サーフボード",@"ギター"];
+    
+    UIImage *image1 = [UIImage imageNamed:@"9330911290774.jpg"];
+    UIImage *image2 = [UIImage imageNamed:@"a.png"];
+    UIImage *image3 = [UIImage imageNamed:@"wada1.jpg"];
+    UIImage *image4 = [UIImage imageNamed:@"01101151_52cf6047dd3dd-2.jpg"];
+    UIImage *image5 = [UIImage imageNamed:@"3_peces.jpg"];
+    
+    self.imageArr = @[image1,image2,image3,image4,image5];
+    
+    UIImage *image10 = [UIImage imageNamed:@"PAK86_kuzureochiru20140713-thumb-815xauto-17275.jpg"];
+    UIImage *image20 = [UIImage imageNamed:@"11145066_830295770382605_8492820296412019713_n.jpg"];
+    UIImage *image30 = [UIImage imageNamed:@"LIG_shinsangirigira-thumb-815xauto-16033.jpg"];
+    UIImage *image40 = [UIImage imageNamed:@"01101151_52cf6047dd3dd-2.jpg"];
+    UIImage *image50 = [UIImage imageNamed:@"3_peces.jpg"];
+    
+    self.profileArr = @[image10,image20,image30,image40,image50];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,7 +87,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 5;
+    return self.nameArr.count;
 }
 
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -75,6 +99,11 @@
     
     cell.backgroundColor = [UIColor clearColor];
     
+    
+    AppDelegate *ad = [[UIApplication sharedApplication] delegate];
+    cell.itemImageView.image = ad.firstImage;
+    cell.userNameLabel.text = ad.titlestr;
+    cell.userImageView.image = [UIImage imageNamed:@"11145066_830295770382605_8492820296412019713_n.jpg"];
     
     cell.userImageView.layer.cornerRadius = 13.5;
     cell.userImageView.clipsToBounds = YES;

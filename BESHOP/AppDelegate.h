@@ -18,6 +18,14 @@
 @property NSString *switchFlag;
 
 
+@property UIImage *firstImage;
+@property UIImage *secondImage;
+@property UIImage *thirdImage;
+
+@property NSString *titlestr;
+@property NSString *descriptionStr;
+@property NSString *priceStr;
+
 
 @end
 

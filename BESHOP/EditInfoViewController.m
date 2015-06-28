@@ -7,6 +7,7 @@
 //
 
 #import "EditInfoViewController.h"
+#import "AppDelegate.h"
 
 @interface EditInfoViewController ()<UITextFieldDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,UITextViewDelegate>
 
@@ -75,18 +76,20 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     
+    AppDelegate *ad = [[UIApplication sharedApplication] delegate];
+    
     [textField resignFirstResponder];
     
-    NSString *str;
+    
     
     if (textField == self.priceTextField) {
         
-        NSString *price = textField.text;
+        ad.priceStr = textField.text;
     }
     
     else if (textField == self.titleTextField){
         
-        NSString *title = textField.text;
+        ad.titlestr = textField.text;
     }
     
     return YES;
@@ -121,6 +124,8 @@
         
         [self.firstImageView setBackgroundImage:originalImage forState:UIControlStateNormal];
         self.firstImageView.tag = 1;
+        AppDelegate *ad = [[UIApplication sharedApplication] delegate];
+        ad.firstImage = originalImage;
         return;
     }
     

@@ -44,6 +44,19 @@
 		56133A611B3F962200EBCB4F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56133A601B3F962200EBCB4F /* ListViewController.m */; };
 		56133A651B3F9AF700EBCB4F /* WhiteAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A641B3F9AF700EBCB4F /* WhiteAdd.png */; };
 		56133A691B3F9E7E00EBCB4F /* Yoko1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A681B3F9E7E00EBCB4F /* Yoko1.png */; };
+		56133A6D1B3FAB2100EBCB4F /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A6A1B3FAB2100EBCB4F /* a.png */; };
+		56133A6E1B3FAB2100EBCB4F /* gasukatorige.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A6B1B3FAB2100EBCB4F /* gasukatorige.png */; };
+		56133A6F1B3FAB2100EBCB4F /* k331225787.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A6C1B3FAB2100EBCB4F /* k331225787.png */; };
+		56133A711B3FAB3600EBCB4F /* mokuren-box15.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A701B3FAB3600EBCB4F /* mokuren-box15.png */; };
+		56133A751B3FAE4400EBCB4F /* 3_peces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A721B3FAE4400EBCB4F /* 3_peces.jpg */; };
+		56133A761B3FAE4400EBCB4F /* 120717factor01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A731B3FAE4400EBCB4F /* 120717factor01.jpg */; };
+		56133A771B3FAE4400EBCB4F /* 01101151_52cf6047dd3dd-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A741B3FAE4400EBCB4F /* 01101151_52cf6047dd3dd-2.jpg */; };
+		56133A791B3FAE5C00EBCB4F /* 9330911290774.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A781B3FAE5C00EBCB4F /* 9330911290774.jpg */; };
+		56133A7B1B3FAFA100EBCB4F /* wada1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A7A1B3FAFA100EBCB4F /* wada1.jpg */; };
+		56133A7F1B3FB08800EBCB4F /* LIG_shinsangirigira-thumb-815xauto-16033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A7C1B3FB08800EBCB4F /* LIG_shinsangirigira-thumb-815xauto-16033.jpg */; };
+		56133A801B3FB08800EBCB4F /* MJ856_ozpaagent15145551-thumb-815xauto-18419.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A7D1B3FB08800EBCB4F /* MJ856_ozpaagent15145551-thumb-815xauto-18419.jpg */; };
+		56133A811B3FB08800EBCB4F /* MKJ_kyouheisakebu-thumb-815xauto-13673.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A7E1B3FB08800EBCB4F /* MKJ_kyouheisakebu-thumb-815xauto-13673.jpg */; };
+		56133A831B3FB09500EBCB4F /* PAK86_kuzureochiru20140713-thumb-815xauto-17275.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56133A821B3FB09500EBCB4F /* PAK86_kuzureochiru20140713-thumb-815xauto-17275.jpg */; };
 		813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */; };
 		813F5E5D1B3EDF5300051DFB /* MailAndPassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */; };
 		813F5E5F1B3EE17000051DFB /* UserNameAndThumbNailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */; };
@@ -149,6 +162,19 @@
 		56133A601B3F962200EBCB4F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		56133A641B3F9AF700EBCB4F /* WhiteAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteAdd.png; sourceTree = "<group>"; };
 		56133A681B3F9E7E00EBCB4F /* Yoko1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yoko1.png; sourceTree = "<group>"; };
+		56133A6A1B3FAB2100EBCB4F /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		56133A6B1B3FAB2100EBCB4F /* gasukatorige.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gasukatorige.png; sourceTree = "<group>"; };
+		56133A6C1B3FAB2100EBCB4F /* k331225787.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = k331225787.png; sourceTree = "<group>"; };
+		56133A701B3FAB3600EBCB4F /* mokuren-box15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mokuren-box15.png"; sourceTree = "<group>"; };
+		56133A721B3FAE4400EBCB4F /* 3_peces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3_peces.jpg; sourceTree = "<group>"; };
+		56133A731B3FAE4400EBCB4F /* 120717factor01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 120717factor01.jpg; sourceTree = "<group>"; };
+		56133A741B3FAE4400EBCB4F /* 01101151_52cf6047dd3dd-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01101151_52cf6047dd3dd-2.jpg"; sourceTree = "<group>"; };
+		56133A781B3FAE5C00EBCB4F /* 9330911290774.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9330911290774.jpg; sourceTree = "<group>"; };
+		56133A7A1B3FAFA100EBCB4F /* wada1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wada1.jpg; sourceTree = "<group>"; };
+		56133A7C1B3FB08800EBCB4F /* LIG_shinsangirigira-thumb-815xauto-16033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LIG_shinsangirigira-thumb-815xauto-16033.jpg"; sourceTree = "<group>"; };
+		56133A7D1B3FB08800EBCB4F /* MJ856_ozpaagent15145551-thumb-815xauto-18419.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MJ856_ozpaagent15145551-thumb-815xauto-18419.jpg"; sourceTree = "<group>"; };
+		56133A7E1B3FB08800EBCB4F /* MKJ_kyouheisakebu-thumb-815xauto-13673.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MKJ_kyouheisakebu-thumb-815xauto-13673.jpg"; sourceTree = "<group>"; };
+		56133A821B3FB09500EBCB4F /* PAK86_kuzureochiru20140713-thumb-815xauto-17275.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PAK86_kuzureochiru20140713-thumb-815xauto-17275.jpg"; sourceTree = "<group>"; };
 		813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add_items_bg.jpg; sourceTree = "<group>"; };
 		813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailAndPassView.xib; sourceTree = "<group>"; };
 		813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNameAndThumbNailView.xib; sourceTree = "<group>"; };
@@ -314,6 +340,19 @@
 				56133A5D1B3F93C100EBCB4F /* lend.png */,
 				56133A641B3F9AF700EBCB4F /* WhiteAdd.png */,
 				56133A681B3F9E7E00EBCB4F /* Yoko1.png */,
+				56133A6A1B3FAB2100EBCB4F /* a.png */,
+				56133A6B1B3FAB2100EBCB4F /* gasukatorige.png */,
+				56133A6C1B3FAB2100EBCB4F /* k331225787.png */,
+				56133A701B3FAB3600EBCB4F /* mokuren-box15.png */,
+				56133A781B3FAE5C00EBCB4F /* 9330911290774.jpg */,
+				56133A721B3FAE4400EBCB4F /* 3_peces.jpg */,
+				56133A731B3FAE4400EBCB4F /* 120717factor01.jpg */,
+				56133A7A1B3FAFA100EBCB4F /* wada1.jpg */,
+				56133A741B3FAE4400EBCB4F /* 01101151_52cf6047dd3dd-2.jpg */,
+				56133A821B3FB09500EBCB4F /* PAK86_kuzureochiru20140713-thumb-815xauto-17275.jpg */,
+				56133A7C1B3FB08800EBCB4F /* LIG_shinsangirigira-thumb-815xauto-16033.jpg */,
+				56133A7D1B3FB08800EBCB4F /* MJ856_ozpaagent15145551-thumb-815xauto-18419.jpg */,
+				56133A7E1B3FB08800EBCB4F /* MKJ_kyouheisakebu-thumb-815xauto-13673.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -381,8 +420,6 @@
 				813F5E911B3F20A800051DFB /* SelectGenreViewController.m */,
 				813F5E931B3F20C500051DFB /* EditInfoViewController.h */,
 				813F5E941B3F20C500051DFB /* EditInfoViewController.m */,
-				811C0FCC1B3F95F300F92CC6 /* ListViewController.h */,
-				811C0FCD1B3F95F300F92CC6 /* ListViewController.m */,
 				813F5E8D1B3F207300051DFB /* LendNavigationController.h */,
 				813F5E8E1B3F207300051DFB /* LendNavigationController.m */,
 				56133A5F1B3F962200EBCB4F /* ListViewController.h */,
@@ -517,12 +554,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				561339BE1B3E8AAF00EBCB4F /* 11145066_830295770382605_8492820296412019713_n.jpg in Resources */,
+				56133A771B3FAE4400EBCB4F /* 01101151_52cf6047dd3dd-2.jpg in Resources */,
 				561339AF1B3E798400EBCB4F /* ItemTableViewCell.xib in Resources */,
 				813F5E851B3EFCE700051DFB /* logo.png in Resources */,
 				813F5E801B3EF3DB00051DFB /* golden_gate_bridge.jpg in Resources */,
 				56133A5A1B3F92A000EBCB4F /* 05_music.png in Resources */,
+				56133A7B1B3FAFA100EBCB4F /* wada1.jpg in Resources */,
 				813F5E7E1B3EF21900051DFB /* tutorial_3_bg.jpg in Resources */,
 				813F5E5D1B3EDF5300051DFB /* MailAndPassView.xib in Resources */,
+				56133A801B3FB08800EBCB4F /* MJ856_ozpaagent15145551-thumb-815xauto-18419.jpg in Resources */,
 				91A4CEDD1B3F63530090025C /* Cabin-Italic.otf in Resources */,
 				813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */,
 				56133A5E1B3F93C100EBCB4F /* lend.png in Resources */,
@@ -533,6 +573,7 @@
 				56133A691B3F9E7E00EBCB4F /* Yoko1.png in Resources */,
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
 				91A4CEDF1B3F63530090025C /* Cabin-MediumItalic.otf in Resources */,
+				56133A6D1B3FAB2100EBCB4F /* a.png in Resources */,
 				56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */,
 				813F5E8C1B3F186F00051DFB /* syupin.jpg in Resources */,
 				561339C01B3E8AC400EBCB4F /* K0000151481_0002.jpg in Resources */,
@@ -547,23 +588,32 @@
 				813F5E631B3EE1A900051DFB /* OpeningView2.xib in Resources */,
 				91A4CEDC1B3F63530090025C /* Cabin-BoldItalic.otf in Resources */,
 				56133A501B3F7DDA00EBCB4F /* Send.png in Resources */,
+				56133A6F1B3FAB2100EBCB4F /* k331225787.png in Resources */,
 				56133A561B3F92A000EBCB4F /* 01_sports.png in Resources */,
 				91FF4D8A1B3F318600A24F80 /* text_1.png in Resources */,
 				813F5E7D1B3EF21900051DFB /* tutorial_2_bg.jpg in Resources */,
 				813F5EAF1B3F681900051DFB /* camera.png in Resources */,
+				56133A6E1B3FAB2100EBCB4F /* gasukatorige.png in Resources */,
 				813F5E7A1B3EF1C300051DFB /* tutorial_1_bg.jpg in Resources */,
 				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
+				56133A751B3FAE4400EBCB4F /* 3_peces.jpg in Resources */,
+				56133A7F1B3FB08800EBCB4F /* LIG_shinsangirigira-thumb-815xauto-16033.jpg in Resources */,
 				56133A581B3F92A000EBCB4F /* 03_tents.png in Resources */,
 				56133A651B3F9AF700EBCB4F /* WhiteAdd.png in Resources */,
+				56133A761B3FAE4400EBCB4F /* 120717factor01.jpg in Resources */,
+				56133A711B3FAB3600EBCB4F /* mokuren-box15.png in Resources */,
+				56133A791B3FAE5C00EBCB4F /* 9330911290774.jpg in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
 				91A4CEE21B3F63530090025C /* Cabin-SemiBoldItalic.otf in Resources */,
 				813F5E881B3EFCE700051DFB /* start_button.png in Resources */,
+				56133A831B3FB09500EBCB4F /* PAK86_kuzureochiru20140713-thumb-815xauto-17275.jpg in Resources */,
 				56133A571B3F92A000EBCB4F /* 02_ches.png in Resources */,
 				91A4CEDE1B3F63530090025C /* Cabin-Medium.otf in Resources */,
 				813F5E611B3EE19900051DFB /* OpeningView1.xib in Resources */,
 				813F5E8A1B3EFCF000051DFB /* add_picture.png in Resources */,
 				91A4CEE61B3F66800090025C /* lend_text.png in Resources */,
 				813F5E861B3EFCE700051DFB /* register_button.png in Resources */,
+				56133A811B3FB08800EBCB4F /* MKJ_kyouheisakebu-thumb-815xauto-13673.jpg in Resources */,
 				56133A4C1B3F7B8600EBCB4F /* AddImage.png in Resources */,
 				813F5EA51B3F236A00051DFB /* MyItemTableViewCell.xib in Resources */,
 				561339D31B3E921500EBCB4F /* DetailItemView.xib in Resources */,
