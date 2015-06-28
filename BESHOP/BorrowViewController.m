@@ -11,7 +11,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "DrawerView.h"
 #import "AppDelegate.h"
-#import "LendViewController.h"
+#import "ListViewController.h"
 
 @interface BorrowViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -148,7 +148,7 @@
 - (IBAction)pushFlipButton:(id)sender {
     
     
-    LendViewController *lvc = [self.storyboard instantiateViewControllerWithIdentifier:@"Lend"];
+    ListViewController *lvc = [self.storyboard instantiateViewControllerWithIdentifier:@"Lend"];
     self.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:lvc animated:YES completion:nil];
     

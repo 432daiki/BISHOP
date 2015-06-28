@@ -41,6 +41,9 @@
 		56133A591B3F92A000EBCB4F /* 04_indoor.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A541B3F92A000EBCB4F /* 04_indoor.png */; };
 		56133A5A1B3F92A000EBCB4F /* 05_music.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A551B3F92A000EBCB4F /* 05_music.png */; };
 		56133A5E1B3F93C100EBCB4F /* lend.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A5D1B3F93C100EBCB4F /* lend.png */; };
+		56133A611B3F962200EBCB4F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56133A601B3F962200EBCB4F /* ListViewController.m */; };
+		56133A651B3F9AF700EBCB4F /* WhiteAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A641B3F9AF700EBCB4F /* WhiteAdd.png */; };
+		56133A691B3F9E7E00EBCB4F /* Yoko1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56133A681B3F9E7E00EBCB4F /* Yoko1.png */; };
 		813F5E5A1B3EDD8B00051DFB /* add_items_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */; };
 		813F5E5D1B3EDF5300051DFB /* MailAndPassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */; };
 		813F5E5F1B3EE17000051DFB /* UserNameAndThumbNailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */; };
@@ -142,6 +145,10 @@
 		56133A541B3F92A000EBCB4F /* 04_indoor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04_indoor.png; sourceTree = "<group>"; };
 		56133A551B3F92A000EBCB4F /* 05_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05_music.png; sourceTree = "<group>"; };
 		56133A5D1B3F93C100EBCB4F /* lend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lend.png; sourceTree = "<group>"; };
+		56133A5F1B3F962200EBCB4F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		56133A601B3F962200EBCB4F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		56133A641B3F9AF700EBCB4F /* WhiteAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteAdd.png; sourceTree = "<group>"; };
+		56133A681B3F9E7E00EBCB4F /* Yoko1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yoko1.png; sourceTree = "<group>"; };
 		813F5E591B3EDD8B00051DFB /* add_items_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = add_items_bg.jpg; sourceTree = "<group>"; };
 		813F5E5C1B3EDF5300051DFB /* MailAndPassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailAndPassView.xib; sourceTree = "<group>"; };
 		813F5E5E1B3EE17000051DFB /* UserNameAndThumbNailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNameAndThumbNailView.xib; sourceTree = "<group>"; };
@@ -305,6 +312,8 @@
 				56133A541B3F92A000EBCB4F /* 04_indoor.png */,
 				56133A551B3F92A000EBCB4F /* 05_music.png */,
 				56133A5D1B3F93C100EBCB4F /* lend.png */,
+				56133A641B3F9AF700EBCB4F /* WhiteAdd.png */,
+				56133A681B3F9E7E00EBCB4F /* Yoko1.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -374,6 +383,8 @@
 				813F5E941B3F20C500051DFB /* EditInfoViewController.m */,
 				813F5E8D1B3F207300051DFB /* LendNavigationController.h */,
 				813F5E8E1B3F207300051DFB /* LendNavigationController.m */,
+				56133A5F1B3F962200EBCB4F /* ListViewController.h */,
+				56133A601B3F962200EBCB4F /* ListViewController.m */,
 			);
 			name = Lend;
 			sourceTree = "<group>";
@@ -517,6 +528,7 @@
 				56133A0E1B3ECC3000EBCB4F /* Sales.png in Resources */,
 				56133A111B3ECC3800EBCB4F /* Add items.png in Resources */,
 				56133A1A1B3EF0DF00EBCB4F /* Triangle1.png in Resources */,
+				56133A691B3F9E7E00EBCB4F /* Yoko1.png in Resources */,
 				5613398B1B3E666000EBCB4F /* Main.storyboard in Resources */,
 				91A4CEDF1B3F63530090025C /* Cabin-MediumItalic.otf in Resources */,
 				56133A0F1B3ECC3000EBCB4F /* Settings.png in Resources */,
@@ -540,6 +552,7 @@
 				813F5E7A1B3EF1C300051DFB /* tutorial_1_bg.jpg in Resources */,
 				56133A051B3EC7D500EBCB4F /* Bitmap1.png in Resources */,
 				56133A581B3F92A000EBCB4F /* 03_tents.png in Resources */,
+				56133A651B3F9AF700EBCB4F /* WhiteAdd.png in Resources */,
 				5613398D1B3E666000EBCB4F /* Images.xcassets in Resources */,
 				91A4CEE21B3F63530090025C /* Cabin-SemiBoldItalic.otf in Resources */,
 				813F5E881B3EFCE700051DFB /* start_button.png in Resources */,
@@ -575,6 +588,7 @@
 			files = (
 				561339AE1B3E798400EBCB4F /* ItemTableViewCell.m in Sources */,
 				813F5E8F1B3F207300051DFB /* LendNavigationController.m in Sources */,
+				56133A611B3F962200EBCB4F /* ListViewController.m in Sources */,
 				813F5E681B3EE26F00051DFB /* InitializeViewController.m in Sources */,
 				561339A71B3E682500EBCB4F /* LendViewController.m in Sources */,
 				813F5E921B3F20A800051DFB /* SelectGenreViewController.m in Sources */,

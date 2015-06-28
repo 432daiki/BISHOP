@@ -8,6 +8,8 @@
 
 #import "ListViewController.h"
 #import "MyItemTableViewCell.h"
+#import "EditInfoViewController.h"
+#import "BorrowViewController.h"
 
 @interface ListViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *myItemTableView;
@@ -23,6 +25,8 @@
     [self.myItemTableView registerNib:nibForCell forCellReuseIdentifier:@"Cell"];
     self.myItemTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 
+    self.myItemTableView.backgroundColor = [UIColor clearColor];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -57,14 +61,18 @@
     return cell;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)pushAddButon:(id)sender {
+    
+    EditInfoViewController *eivc = [self.storyboard instantiateViewControllerWithIdentifier:@"Edit"];
+    self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self presentViewController:eivc animated:YES completion:nil];
 }
-*/
+
+- (IBAction)pushFlipButton:(id)sender {
+    
+    BorrowViewController *bvc = [self.storyboard instantiateViewControllerWithIdentifier:@"Borrow"];
+    self.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:bvc animated:YES completion:nil];
+}
 
 @end
