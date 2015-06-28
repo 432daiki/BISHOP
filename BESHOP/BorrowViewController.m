@@ -101,9 +101,9 @@
     
     
     AppDelegate *ad = [[UIApplication sharedApplication] delegate];
-    cell.itemImageView.image = ad.firstImage;
-    cell.userNameLabel.text = ad.titlestr;
-    cell.userImageView.image = [UIImage imageNamed:@"11145066_830295770382605_8492820296412019713_n.jpg"];
+    cell.itemImageView.image = self.imageArr[indexPath.row];
+    cell.userNameLabel.text = self.nameArr[indexPath.row];
+    cell.userImageView.image = self.profileArr[indexPath.row];
     
     cell.userImageView.layer.cornerRadius = 13.5;
     cell.userImageView.clipsToBounds = YES;
